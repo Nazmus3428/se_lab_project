@@ -2,7 +2,35 @@
 
 namespace App\Http;
 
+use App\Http\Middleware\Authenticate;
+use App\Http\Middleware\CheckModule;
+use App\Http\Middleware\CheckUserStatus;
+use App\Http\Middleware\EncryptCookies;
+use App\Http\Middleware\PreventRequestsDuringMaintenance;
+use App\Http\Middleware\RedirectIfAuthenticated;
+use App\Http\Middleware\SetLanguage;
+use App\Http\Middleware\TrimStrings;
+use App\Http\Middleware\TrustProxies;
+use App\Http\Middleware\VerifyCsrfToken;
+use App\Http\Middleware\XSS;
+use Illuminate\Auth\Middleware\AuthenticateWithBasicAuth;
+use Illuminate\Auth\Middleware\Authorize;
+use Illuminate\Auth\Middleware\EnsureEmailIsVerified;
+use Illuminate\Auth\Middleware\RequirePassword;
+use Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse;
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
+use Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull;
+use Illuminate\Foundation\Http\Middleware\ValidatePostSize;
+use Illuminate\Http\Middleware\SetCacheHeaders;
+use Illuminate\Routing\Middleware\SubstituteBindings;
+use Illuminate\Routing\Middleware\ThrottleRequests;
+use Illuminate\Routing\Middleware\ValidateSignature;
+use Illuminate\Session\Middleware\AuthenticateSession;
+use Illuminate\Session\Middleware\StartSession;
+use Illuminate\View\Middleware\ShareErrorsFromSession;
+use Spatie\Permission\Middlewares\PermissionMiddleware;
+use Spatie\Permission\Middlewares\RoleMiddleware;
+use Spatie\Permission\Middlewares\RoleOrPermissionMiddleware;
 
 class Kernel extends HttpKernel
 {
@@ -11,58 +39,81 @@ class Kernel extends HttpKernel
      *
      * These middleware are run during every request to your application.
      *
-     * @var array<int, class-string|string>
+     * @var array
      */
     protected $middleware = [
-        // \App\Http\Middleware\TrustHosts::class,
-        \App\Http\Middleware\TrustProxies::class,
-        \Illuminate\Http\Middleware\HandleCors::class,
-        \App\Http\Middleware\PreventRequestsDuringMaintenance::class,
-        \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
-        \App\Http\Middleware\TrimStrings::class,
-        \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
+        TrustProxies::class,
+        PreventRequestsDuringMaintenance::class,
+        ValidatePostSize::class,
+        TrimStrings::class,
+        ConvertEmptyStringsToNull::class,
     ];
 
     /**
      * The application's route middleware groups.
      *
-     * @var array<string, array<int, class-string|string>>
+     * @var array
      */
     protected $middlewareGroups = [
         'web' => [
-            \App\Http\Middleware\EncryptCookies::class,
-            \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
-            \Illuminate\Session\Middleware\StartSession::class,
-            \Illuminate\View\Middleware\ShareErrorsFromSession::class,
-            \App\Http\Middleware\VerifyCsrfToken::class,
-            \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            EncryptCookies::class,
+            AddQueuedCookiesToResponse::class,
+            StartSession::class,
+            AuthenticateSession::class,
+            ShareErrorsFromSession::class,
+            VerifyCsrfToken::class,
+            SubstituteBindings::class,
         ],
 
         'api' => [
-            // \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
+            \Laravel\Sanctum\Http\Middleware\EnsureFrontendRequestsAreStateful::class,
             \Illuminate\Routing\Middleware\ThrottleRequests::class.':api',
-            \Illuminate\Routing\Middleware\SubstituteBindings::class,
+            SubstituteBindings::class,
         ],
     ];
 
     /**
      * The application's middleware aliases.
      *
-     * Aliases may be used instead of class names to conveniently assign middleware to routes and groups.
+     * Aliases may be used to conveniently assign middleware to routes and groups.
      *
-     * @var array<string, class-string|string>
+     * @var array
      */
     protected $middlewareAliases = [
-        'auth' => \App\Http\Middleware\Authenticate::class,
-        'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
-        'auth.session' => \Illuminate\Session\Middleware\AuthenticateSession::class,
-        'cache.headers' => \Illuminate\Http\Middleware\SetCacheHeaders::class,
-        'can' => \Illuminate\Auth\Middleware\Authorize::class,
-        'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
-        'password.confirm' => \Illuminate\Auth\Middleware\RequirePassword::class,
+        'auth' => Authenticate::class,
+        'auth.basic' => AuthenticateWithBasicAuth::class,
+        'bindings' => SubstituteBindings::class,
+        'cache.headers' => SetCacheHeaders::class,
+        'can' => Authorize::class,
+        'guest' => RedirectIfAuthenticated::class,
+        'password.confirm' => RequirePassword::class,
         'precognitive' => \Illuminate\Foundation\Http\Middleware\HandlePrecognitiveRequests::class,
-        'signed' => \App\Http\Middleware\ValidateSignature::class,
-        'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
-        'verified' => \Illuminate\Auth\Middleware\EnsureEmailIsVerified::class,
+        'signed' => ValidateSignature::class,
+        'throttle' => ThrottleRequests::class,
+        'verified' => EnsureEmailIsVerified::class,
+        'role' => RoleMiddleware::class,
+        'permission' => PermissionMiddleware::class,
+        'role_or_permission' => RoleOrPermissionMiddleware::class,
+        'xss' => XSS::class,
+        'checkUserStatus' => CheckUserStatus::class,
+        'modules' => CheckModule::class,
+        'setLanguage' => SetLanguage::class,
+    ];
+
+    /**
+     * The priority-sorted list of middleware.
+     *
+     * This forces non-global middleware to always be in the given order.
+     *
+     * @var array
+     */
+    protected $middlewarePriority = [
+        StartSession::class,
+        ShareErrorsFromSession::class,
+        Authenticate::class,
+        ThrottleRequests::class,
+        AuthenticateSession::class,
+        SubstituteBindings::class,
+        Authorize::class,
     ];
 }

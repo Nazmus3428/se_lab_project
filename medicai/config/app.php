@@ -18,6 +18,10 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    'footer_version_show' => env('VERSION_NUMBER', true),
+
+    'is_version' => env('IS_VERSION', true),
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
@@ -42,7 +46,7 @@ return [
     |
     */
 
-    'debug' => (bool) env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', false),
 
     /*
     |--------------------------------------------------------------------------
@@ -57,7 +61,8 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
-    'asset_url' => env('ASSET_URL'),
+    'asset_url' => env('ASSET_URL', null),
+    'media_disc' => env('MEDIA_DISK', 'public'),
 
     /*
     |--------------------------------------------------------------------------
@@ -126,23 +131,24 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
-    /*
-    |--------------------------------------------------------------------------
-    | Maintenance Mode Driver
-    |--------------------------------------------------------------------------
-    |
-    | These configuration options determine the driver used to determine and
-    | manage Laravel's "maintenance mode" status. The "cache" driver will
-    | allow maintenance mode to be controlled across multiple machines.
-    |
-    | Supported drivers: "file", "cache"
-    |
-    */
-
-    'maintenance' => [
-        'driver' => 'file',
-        // 'store' => 'redis',
+    'recaptcha' => [
+        'sitekey' => env('NOCAPTCHA_SITEKEY'),
+        'secret' => env('NOCAPTCHA_SECRET'),
     ],
+
+    /*
+     | ------------------------------------------------------------------------
+     | Zoom API Key
+     | ------------------------------------------------------------------------
+     | This key is used for the Zoom API calls
+     */
+
+    'zoom_api_key' => env('ZOOM_API_KEY'),
+    'zoom_api_secret' => env('ZOOM_API_SECRET'),
+    'zoom_api_url' => env('ZOOM_API_URL', ''),
+    'zoom_callback' => env('ZOOM_REDIRECT_URL', ''),
+
+    'upgrade_mode' => env('UPGRADE_MODE'),
 
     /*
     |--------------------------------------------------------------------------
@@ -156,9 +162,13 @@ return [
     */
 
     'providers' => ServiceProvider::defaultProviders()->merge([
+        \App\Providers\BladeServiceProvider::class,
+
         /*
          * Package Service Providers...
          */
+        Spatie\Permission\PermissionServiceProvider::class,
+        Mews\Purifier\PurifierServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -168,6 +178,11 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
+        Maatwebsite\Excel\ExcelServiceProvider::class,
+        Mariuzzo\LaravelJsLocalization\LaravelJsLocalizationServiceProvider::class,
+        Rap2hpoutre\LaravelLogViewer\LaravelLogViewerServiceProvider::class,
     ])->toArray(),
 
     /*
@@ -182,7 +197,14 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // 'Example' => App\Facades\Example::class,
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+        'Flash' => Laracasts\Flash\Flash::class,
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
+        'Purifier' => Mews\Purifier\Facades\Purifier::class,
+        'Redis' => Illuminate\Support\Facades\Redis::class,
+        'PDF' => Barryvdh\DomPDF\Facade\Pdf::class,
     ])->toArray(),
 
 ];

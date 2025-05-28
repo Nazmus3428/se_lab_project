@@ -31,4 +31,20 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'stripe' => [
+        'key' => env('STRIPE_KEY', ''),
+        'secret_key' => env('STRIPE_SECRET_KEY', ''),
+    ],
+
+    'paypal' => [
+        'key' => env('PAYPAL_CLIENT_ID', ''),
+        'secret_key' => env('PAYPAL_SECRET', ''),
+        'mode' => env('PAYPAL_MODE', ''),
+    ],
+
+    'razorpay' => [
+        'key' => env('RAZOR_KEY', ''),
+        'secret_key' => env('RAZOR_SECRET', ''),
+    ],
+
 ];
