@@ -79,7 +79,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
 {{--                                <a class="nav-link" href="javascript:void(0)"> {{getCurrentLanguageName()}}</a>--}}
                                 <a class="nav-link" href="javascript:void(0)"> {{ __('messages.language.'.getCurrentLanguageName()) }}</a>
                                 <ul class="nav submenu language-menu">
@@ -96,7 +96,7 @@
                                         @endforeach
                                     @endforeach
                                 </ul>
-                            </li>
+                            </li> -->
                         </ul>
                         <div class="text-xl-end header-btn-grp ms-xl-3">
                             @if(Auth::user())

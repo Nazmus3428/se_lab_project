@@ -31,7 +31,7 @@
         </a>
     </li>
 
-    {{-- patient id card --}}
+    <!-- {{-- patient id card --}}
     <li class="nav-item {{ Request::is('smart-patient-cards*', 'generate-patient-smart-cards*') ? 'active' : '' }}">
         <a class="nav-link  d-flex align-items-center py-3" href="{{ route('smart-patient-cards.index') }}">
             <span class="aside-menu-icon me-3">
@@ -39,7 +39,7 @@
             </span>
             <span class="aside-menu-title">{{ __('messages.patient_id_card.patient_id_card') }}</span>
         </a>
-    </li>
+    </li> -->
 
     {{-- @module('Operation Categories', $modules) --}}
     {{-- Operations Category --}}
@@ -133,7 +133,7 @@
     <?php
     $bedMGT = getMenuLinks(\App\Models\User::MAIN_BED_MGT);
     ?>
-    @if ($bedMGT)
+    <!-- @if ($bedMGT)
         {{-- Bed Management  --}}
         <li
             class="nav-item  {{ Request::is('bed-types*', 'beds*', 'bed-assigns*', 'bulk-beds', 'bed-status') ? 'active' : '' }}">
@@ -145,7 +145,7 @@
                 <span class="d-none">{{ __('messages.bed_assigns') }}</span>
             </a>
         </li>
-    @endif
+    @endif -->
 
     {{-- Blood Bank dropdown --}}
     <?php
@@ -164,7 +164,7 @@
         </li>
     @endif
 
-    {{-- Documents Mgt --}}
+    <!-- {{-- Documents Mgt --}}
     <?php
     $documentMGT = getMenuLinks(\App\Models\User::MAIN_DOCUMENT);
     ?>
@@ -176,7 +176,7 @@
                 <span class="d-none">{{ __('messages.document_types') }}</span>
             </a>
         </li>
-    @endif
+    @endif -->
 
     {{-- Doctors dropdown --}}
     <?php
@@ -238,7 +238,7 @@
         </li>
     @endmodule
 
-    {{-- Finance --}}
+    <!-- {{-- Finance --}}
     <?php
     $financeMGT = getMenuLinks(\App\Models\User::MAIN_FINANCE);
     ?>
@@ -251,9 +251,9 @@
                 <span class="d-none">{{ __('messages.expenses') }}</span>
             </a>
         </li>
-    @endif
+    @endif -->
 
-    {{-- Front office --}}
+    <!-- {{-- Front office --}}
     <?php
     $frontOfficeMGT = getMenuLinks(\App\Models\User::MAIN_FRONT_OFFICE);
     ?>
@@ -268,9 +268,9 @@
                 <span class="d-none">{{ __('messages.postal_dispatch') }}</span>
             </a>
         </li>
-    @endif
+    @endif -->
 
-    {{-- Front settings --}}
+    <!-- {{-- Front settings --}}
     <li
         class="nav-item {{ Request::is('front-settings*', 'notice-boards*', 'testimonials*', 'front-cms-services*') ? 'active' : '' }}">
         <a class="nav-link  d-flex align-items-center py-3" href="{{ route('front.settings.index') }}">
@@ -281,9 +281,9 @@
             <span class="d-none">{{ __('messages.cms') }}</span>
             <span class="d-none">{{ __('messages.front_cms_services') }}</span>
         </a>
-    </li>
+    </li> -->
 
-    {{-- Hospital Charges --}}
+    <!-- {{-- Hospital Charges --}}
     <?php
     $hospitalCharge = getMenuLinks(\App\Models\User::MAIN_HOSPITAL_CHARGE);
     ?>
@@ -297,9 +297,9 @@
                 <span class="d-none">{{ __('messages.doctor_opd_charges') }}</span>
             </a>
         </li>
-    @endif
+    @endif -->
 
-    {{-- Inventory Management  --}}
+    <!-- {{-- Inventory Management  --}}
     <?php
     $inventoryMgt = getMenuLinks(\App\Models\User::MAIN_INVENTORY);
     ?>
@@ -315,7 +315,7 @@
                 <span class="d-none">{{ __('messages.issued_items') }}</span>
             </a>
         </li>
-    @endif
+    @endif -->
 
     {{-- Live Consultation --}}
     <?php
@@ -385,7 +385,7 @@
         </li>
     @endif
 
-    {{-- Hospital Activities dropdown --}}
+    <!-- {{-- Hospital Activities dropdown --}}
     <?php
     $reportMgt = getMenuLinks(\App\Models\User::MAIN_REPORT);
     ?>
@@ -401,7 +401,7 @@
                 <span class="d-none">{{ __('messages.operation_reports') }}</span>
             </a>
         </li>
-    @endif
+    @endif -->
 
     {{-- Medicines dropdown --}}
     <?php
@@ -456,7 +456,7 @@
             </li>
         @endif
 
-        {{-- Settings --}}
+        <!-- {{-- Settings --}}
         <li
             class="nav-item  {{ Request::is('settings*', 'hospital-schedules*', 'currency-settings*', 'operation-categories*', 'operations*') ? 'active' : '' }}">
             <a class="nav-link  d-flex align-items-center py-3" href="{{ route('settings.edit') }}">
@@ -465,9 +465,9 @@
                 <span class="d-none">{{ __('messages.general') }}</span>
                 <span class="d-none">{{ __('messages.sidebar_setting') }}</span>
             </a>
-        </li>
+        </li> -->
 
-        {{-- Vaccination --}}
+        <!-- {{-- Vaccination --}}
         <?php
         $vaccinationsPatient = getMenuLinks(\App\Models\User::MAIN_VACCINATION_MGT);
         ?>
@@ -481,7 +481,7 @@
                     <span class="d-none">{{ __('messages.vaccinated_patients') }}</span>
                 </a>
             </li>
-        @endif
+        @endif -->
     @endrole
     @if (Auth::user()->email_verified_at != null)
         @role('Doctor')

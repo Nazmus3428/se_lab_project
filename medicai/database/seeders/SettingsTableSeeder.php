@@ -14,14 +14,14 @@ class SettingsTableSeeder extends Seeder
     {
         $imageUrl = ('web/img/logo.jpg');
 
-        Setting::create(['key' => 'app_name', 'value' => 'HMS']);
+        Setting::create(['key' => 'app_name', 'value' => 'MedicAI']);
         Setting::create(['key' => 'app_logo', 'value' => $imageUrl]);
-        Setting::create(['key' => 'company_name', 'value' => 'InfyOmLabs']);
-        Setting::create(['key' => 'current_currency', 'value' => 'inr']);
-        Setting::create(['key' => 'hospital_address', 'value' => '16/A saint Joseph Park']);
-        Setting::create(['key' => 'hospital_email', 'value' => 'cityhospital@gmail.com']);
-        Setting::create(['key' => 'hospital_phone', 'value' => '+919876543210']);
-        Setting::create(['key' => 'hospital_from_day', 'value' => 'Mon to Fri']);
-        Setting::create(['key' => 'hospital_from_time', 'value' => '9 AM to 9 PM']);
+        Setting::create(['key' => 'company_name', 'value' => 'MedicAI']);
+        Setting::create(['key' => 'current_currency', 'value' => 'BDT']);
+        Setting::create(['key' => 'hospital_address', 'value' => '16/A Mission Garden, United City']);
+        Setting::create(['key' => 'hospital_email', 'value' => 'medicai@gmail.com']);
+        Setting::create(['key' => 'hospital_phone', 'value' => '01568922406']);
+        Setting::create(['key' => 'hospital_from_day', 'value' => 'sat to thu']);
+        Setting::create(['key' => 'hospital_from_time', 'value' => '9 AM to 11 PM']);
     }
 }
