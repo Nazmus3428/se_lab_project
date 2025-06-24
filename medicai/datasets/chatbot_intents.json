@@ -1,0 +1,17 @@
+[
+  {
+    "tag": "greeting",
+    "patterns": ["Hi", "Hello", "How are you?", "Is anyone there?"],
+    "responses": ["Hello!", "Hi there!", "Welcome to Medicai"]
+  },
+  {
+    "tag": "hours",
+    "patterns": ["What are your hours?", "When are you open?", "Hospital timings"],
+    "responses": ["We are open from 9 AM to 7 PM.", "Our regular hours are 9 to 7."]
+  },
+  {
+    "tag": "emergency",
+    "patterns": ["Emergency help", "Call emergency", "Ambulance service"],
+    "responses": ["Dial 911 for emergencies.", "Emergency services are available 24/7."]
+  }
+]

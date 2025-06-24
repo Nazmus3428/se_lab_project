@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MedicAi - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome for Hamburger Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #eef2f3; 
+      color: #333;
+    }
+
+    /* ============ NAVBAR ============ */
+    .navbar {
+      background-color: #008b8b;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      position: relative;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    .logo i {
+      margin-right: 10px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 20px;
+    }
+
+    .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .menu-toggle {
+      display: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    @media (max-width: 768px) {
+      .nav-links {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #008b8b;
+        flex-direction: column;
+        display: none;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .menu-toggle {
+        display: block;
+      }
+    }
+
+    /* ============ CAROUSEL ============ */
+    .carousel {
+      position: relative;
+      width: 100%;
+      max-height: 400px;
+      overflow: hidden;
+      background-color: #fff;
+    }
+
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slide {
+      min-width: 100%;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      padding: 20px;
+      box-sizing: border-box;
+      color: white;
+    }
+
+    .slide:nth-child(1) {
+      background-image: url('https://via.placeholder.com/1200x300?text=Welcome+to+MedicAi');
+    }
+
+    .slide:nth-child(2) {
+      background-image: url('https://via.placeholder.com/1200x300?text=Book+Appointment+Today');
+    }
+
+    .slide:nth-child(3) {
+      background-image: url('https://via.placeholder.com/1200x300?text=AI+Chatbot+Available');
+    }
+
+    .carousel-controls {
+      position: absolute;
+      top: 50%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transform: translateY(-50%);
+    }
+
+    .carousel-btn {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .carousel-dots {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      background-color: #bbb; 
+      border-radius: 50%;
+      margin: 0 5px;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background-color: white;
+    }
+
+    /* ============ MAIN CONTENT ============ */
+    header {
+      background-color: #008b8b;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      display: none;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: grid;
+      gap: 30px;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .section {
+      background: white;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .section:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #008b8b;
+    }
+
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
+    }
+
+    input,
+    textarea,
+    select,
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+
+    .green-btn {
+      background-color: #27ae60;
+    }
+
+    .green-btn:hover {
+      background-color: #219150;
+    }
+
+    #loginError,
+    #bookingStatus {
+      color: red;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #008b8b;
+      color: white;
+      margin-top: 50px;
+    }
+
+    /* ============ CHAT WIDGET ============ */
+    .chat-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #008b8b;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      font-size: 24px;
+      cursor: pointer;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      transition: transform 0.2s ease;
+    }
+
+    .chat-button:hover {
+      transform: scale(1.1);
+    }
+
+    .chat-widget {
+      position: fixed;
+      bottom: 90px;
+      right: 20px;
+      width: 350px;
+      height: 500px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      z-index: 999;
+      opacity: 0;
+      visibility: hidden;
+      transform: translateY(20px);
+      transition: all 0.3s ease;
+    }
+
+    .chat-widget.active {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+
+    .chat-header {
+      background-color: #008b8b;
+      color: white;
+      padding: 15px 20px;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    .chat-box {
+      flex-grow: 1;
+      padding: 15px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .message {
+      padding: 10px 15px;
+      border-radius: 15px;
+      max-width: 75%;
+      line-height: 1.4;
+      word-wrap: break-word;
+    }
+
+    .user-message {
+      align-self: flex-end;
+      background-color: #3498db;
+      color: white;
+      border-bottom-right-radius: 5px;
+    }
+
+    .bot-message {
+      align-self: flex-start;
+      background-color: #ecf0f1;
+      color: #2c3e50;
+      border-bottom-left-radius: 5px;
+    }
+
+    .chat-input {
+      display: flex;
+      border-top: 1px solid #ddd;
+    }
+
+    .chat-input input {
+      flex-grow: 1;
+      padding: 10px 15px;
+      border: none;
+      outline: none;
+      font-size: 14px;
+    }
+
+    .chat-input button {
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+
+    .chat-input button:hover {
+      background-color: #219150;
+    }
+
+    @media (max-width: 500px) {
+      .chat-widget {
+        width: 90%;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <div class="navbar">
+    <div class="logo">
+      <i class="fas fa-hospital"></i> MedicAi
+    </div>
+    <div class="menu-toggle" onclick="toggleMenu()">
+      <i class="fas fa-bars"></i>
+    </div>
+    <div class="nav-links" id="navLinks">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+
+  <!-- ============ CAROUSEL ============ -->
+  <div class="carousel" id="carousel">
+    <div class="slides" id="slides">
+      <div class="slide">Welcome to MedicAi – Your AI-powered health assistant</div>
+      <div class="slide">Book an appointment today with our expert doctors</div>
+      <div class="slide">Talk to our AI Chatbot for instant help</div>
+    </div>
+    <div class="carousel-controls">
+      <button class="carousel-btn" onclick="prevSlide()">&#10094;</button>
+      <button class="carousel-btn" onclick="nextSlide()">&#10095;</button>
+    </div>
+    <div class="carousel-dots" id="dotsContainer"></div>
+  </div>
+
+  <!-- ============ MAIN CONTENT ============ -->
+  <div class="container">
+    <!-- Login Section -->
+    <div class="section">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="your@email.com" required />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password" required />
+
+        <button type="submit">Login</button>
+      </form>
+      <p id="loginError"></p>
+    </div>
+
+    <!-- Book Appointment -->
+    <div class="section">
+      <h2>Book an Appointment</h2>
+      <form id="guestAppointmentForm">
+        <label for="guestName">Your Name:</label>
+        <input type="text" id="guestName" placeholder="John Doe" required />
+
+        <label for="guestEmail">Your Email:</label>
+        <input type="email" id="guestEmail" placeholder="john@example.com" required />
+
+        <label for="doctorSelect">Choose Doctor:</label>
+        <select id="doctorSelect" required>
+          <option value="">-- Select Doctor --</option>
+          <option value="1">Dr. Alice Johnson (Cardiologist)</option>
+          <option value="2">Dr. Bob Smith (Neurologist)</option>
+          <option value="3">Dr. Carol Lee (General Physician)</option>
+        </select>
+
+        <label for="appointmentDate">Preferred Date:</label>
+        <input type="date" id="appointmentDate" required />
+
+        <label for="appointmentTime">Preferred Time:</label>
+        <input type="time" id="appointmentTime" required />
+
+        <label for="reason">Reason for Visit:</label>
+        <textarea id="reason" rows="3" placeholder="Briefly describe your issue..."></textarea>
+
+        <button type="submit">Submit Appointment Request</button>
+      </form>
+      <p id="bookingStatus"></p>
+    </div>
+
+    <!-- Need Help -->
+    <div class="section">
+      <h2>Need Help?</h2>
+      <a href="#"><button class="green-btn" style="width: 100%;">Chat with AI Assistant</button></a>
+    </div>
+
+    <!-- Emergency Info -->
+    <div class="section">
+      <h2>Emergency?</h2>
+      <p>If you need immediate assistance, please call us at:</p>
+      <h3>📞 +1 (800) 123-4567</h3>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 MedicAi. All rights reserved.
+  </footer>
+
+  <!-- ============ FLOATING CHAT WIDGET ============ -->
+  <button class="chat-button" onclick="toggleChat()" title="Open Chat">&#128172;</button>
+  <div class="chat-widget" id="chatWidget">
+    <div class="chat-header">MedicAi Assistant</div>
+    <div id="chatBox" class="chat-box"></div>
+    <div class="chat-input">
+      <input type="text" id="userInput" placeholder="Ask a question..." onkeydown="if(event.key === 'Enter') sendMessage()" />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <!-- ============ SCRIPTS ============ -->
+  <script>
+    // =========== NAVBAR TOGGLE ===========
+    function toggleMenu() {
+      const navLinks = document.getElementById("navLinks");
+      navLinks.classList.toggle("active");
+    }
+
+    // =========== CAROUSEL LOGIC ===========
+    let currentIndex = 0;
+
+    const slides = document.querySelectorAll('.slide');
+    const dotsContainer = document.getElementById('dotsContainer');
+
+    // Create Dots
+    slides.forEach((_, i) => {
+      const dot = document.createElement('span');
+      dot.className = 'dot' + (i === 0 ? ' active' : '');
+      dot.onclick = () => goToSlide(i);
+      dotsContainer.appendChild(dot);
+    });
+
+    function updateDots() {
+      document.querySelectorAll('.dot').forEach((dot, i) => {
+        dot.classList.toggle('active', i === currentIndex);
+      });
+    }
+
+    function showSlide(index) {
+      const offset = -index * 100;
+      document.getElementById('slides').style.transform = `translateX(${offset}%)`;
+      currentIndex = index;
+      updateDots();
+    }
+
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    function prevSlide() {
+      currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+      showSlide(currentIndex);
+    }
+
+    function goToSlide(index) {
+      showSlide(index);
+    }
+
+    setInterval(nextSlide, 5000); // Auto-slide every 5 seconds
+
+    // =========== CHAT WIDGET ===========
+    function toggleChat() {
+      const widget = document.getElementById("chatWidget");
+      widget.classList.toggle("active");
+    }
+
+    function sendMessage() {
+      const input = document.getElementById("userInput");
+      const message = input.value.trim();
+      if (!message) return;
+
+      appendMessage(message, "user");
+
+      fetch("http://localhost:5000/chatbot/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ question: message })
+      })
+      .then(res => res.json())
+      .then(data => {
+        appendMessage(data.answer, "bot");
+      });
+
+      input.value = "";
+    }
+
+    function appendMessage(msg, sender) {
+      const chatBox = document.getElementById("chatBox");
+      const msgDiv = document.createElement("div");
+      msgDiv.className = "message";
+
+      if (sender === "user") {
+        msgDiv.classList.add("user-message");
+      } else {
+        msgDiv.classList.add("bot-message");
+      }
+
+      msgDiv.textContent = msg;
+      chatBox.appendChild(msgDiv);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+  </script>
+</body>
+</html>
