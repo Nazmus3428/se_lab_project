@@ -1,1 +1,0 @@
-{{$row->brand->name}}

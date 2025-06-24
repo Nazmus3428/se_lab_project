@@ -1,1 +1,0 @@
-{{ $row->doctor->department->title }}
