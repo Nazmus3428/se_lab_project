@@ -11914,5 +11914,3079 @@
       "Consult a Endocrinologist.",
       "If symptoms worsen: Thyroid storm (hyperthyroid crisis) is a medical emergency."
     ]
+  },
+    {
+    "tag": "acute_rheumatic_fever_symptoms",
+    "patterns": [
+      "What are the symptoms of Acute rheumatic fever?",
+      "How do I know if I have Acute rheumatic fever?",
+      "Signs of Acute rheumatic fever",
+      "Is Acute rheumatic fever dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Acute rheumatic fever may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "acute_rheumatic_fever_treatment",
+    "patterns": [
+      "How is Acute rheumatic fever treated?",
+      "Best treatment for Acute rheumatic fever",
+      "Medication for Acute rheumatic fever",
+      "Can Acute rheumatic fever be cured?"
+    ],
+    "responses": [
+      "Treatment for Acute rheumatic fever depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "acute_rheumatic_fever_doctor",
+    "patterns": [
+      "Which doctor should I see for Acute rheumatic fever?",
+      "What kind of specialist treats Acute rheumatic fever?",
+      "Do I need a doctor for Acute rheumatic fever?",
+      "Is Acute rheumatic fever serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Cardiologist, for Acute rheumatic fever."
+    ]
+  },
+  {
+    "tag": "acute_rheumatic_fever_emergency",
+    "patterns": [
+      "Is Acute rheumatic fever an emergency?",
+      "When should I go to ER for Acute rheumatic fever?",
+      "Urgent signs of Acute rheumatic fever",
+      "What if Acute rheumatic fever gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Acute rheumatic fever may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "allergies_symptoms",
+    "patterns": [
+      "What are the symptoms of Allergies?",
+      "How do I know if I have Allergies?",
+      "Signs of Allergies",
+      "Is Allergies dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Allergies may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "allergies_treatment",
+    "patterns": [
+      "How is Allergies treated?",
+      "Best treatment for Allergies",
+      "Medication for Allergies",
+      "Can Allergies be cured?"
+    ],
+    "responses": [
+      "Treatment for Allergies depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "allergies_doctor",
+    "patterns": [
+      "Which doctor should I see for Allergies?",
+      "What kind of specialist treats Allergies?",
+      "Do I need a doctor for Allergies?",
+      "Is Allergies serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Allergist, for Allergies."
+    ]
+  },
+  {
+    "tag": "allergies_emergency",
+    "patterns": [
+      "Is Allergies an emergency?",
+      "When should I go to ER for Allergies?",
+      "Urgent signs of Allergies",
+      "What if Allergies gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Allergies may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "alzheimers_disease_symptoms",
+    "patterns": [
+      "What are the symptoms of Alzheimer\u2019s disease?",
+      "How do I know if I have Alzheimer\u2019s disease?",
+      "Signs of Alzheimer\u2019s disease",
+      "Is Alzheimer\u2019s disease dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Alzheimer\u2019s disease may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "alzheimers_disease_treatment",
+    "patterns": [
+      "How is Alzheimer\u2019s disease treated?",
+      "Best treatment for Alzheimer\u2019s disease",
+      "Medication for Alzheimer\u2019s disease",
+      "Can Alzheimer\u2019s disease be cured?"
+    ],
+    "responses": [
+      "Treatment for Alzheimer\u2019s disease depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "alzheimers_disease_doctor",
+    "patterns": [
+      "Which doctor should I see for Alzheimer\u2019s disease?",
+      "What kind of specialist treats Alzheimer\u2019s disease?",
+      "Do I need a doctor for Alzheimer\u2019s disease?",
+      "Is Alzheimer\u2019s disease serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Neurologist, for Alzheimer\u2019s disease."
+    ]
+  },
+  {
+    "tag": "alzheimers_disease_emergency",
+    "patterns": [
+      "Is Alzheimer\u2019s disease an emergency?",
+      "When should I go to ER for Alzheimer\u2019s disease?",
+      "Urgent signs of Alzheimer\u2019s disease",
+      "What if Alzheimer\u2019s disease gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Alzheimer\u2019s disease may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "anaemia_symptoms",
+    "patterns": [
+      "What are the symptoms of Anaemia?",
+      "How do I know if I have Anaemia?",
+      "Signs of Anaemia",
+      "Is Anaemia dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Anaemia may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "anaemia_treatment",
+    "patterns": [
+      "How is Anaemia treated?",
+      "Best treatment for Anaemia",
+      "Medication for Anaemia",
+      "Can Anaemia be cured?"
+    ],
+    "responses": [
+      "Treatment for Anaemia depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "anaemia_doctor",
+    "patterns": [
+      "Which doctor should I see for Anaemia?",
+      "What kind of specialist treats Anaemia?",
+      "Do I need a doctor for Anaemia?",
+      "Is Anaemia serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Hematologist, for Anaemia."
+    ]
+  },
+  {
+    "tag": "anaemia_emergency",
+    "patterns": [
+      "Is Anaemia an emergency?",
+      "When should I go to ER for Anaemia?",
+      "Urgent signs of Anaemia",
+      "What if Anaemia gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Anaemia may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "anaphylaxis_symptoms",
+    "patterns": [
+      "What are the symptoms of Anaphylaxis?",
+      "How do I know if I have Anaphylaxis?",
+      "Signs of Anaphylaxis",
+      "Is Anaphylaxis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Anaphylaxis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "anaphylaxis_treatment",
+    "patterns": [
+      "How is Anaphylaxis treated?",
+      "Best treatment for Anaphylaxis",
+      "Medication for Anaphylaxis",
+      "Can Anaphylaxis be cured?"
+    ],
+    "responses": [
+      "Treatment for Anaphylaxis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "anaphylaxis_doctor",
+    "patterns": [
+      "Which doctor should I see for Anaphylaxis?",
+      "What kind of specialist treats Anaphylaxis?",
+      "Do I need a doctor for Anaphylaxis?",
+      "Is Anaphylaxis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Emergency Physician, for Anaphylaxis."
+    ]
+  },
+  {
+    "tag": "anaphylaxis_emergency",
+    "patterns": [
+      "Is Anaphylaxis an emergency?",
+      "When should I go to ER for Anaphylaxis?",
+      "Urgent signs of Anaphylaxis",
+      "What if Anaphylaxis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Anaphylaxis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "angina_symptoms",
+    "patterns": [
+      "What are the symptoms of Angina?",
+      "How do I know if I have Angina?",
+      "Signs of Angina",
+      "Is Angina dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Angina may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "angina_treatment",
+    "patterns": [
+      "How is Angina treated?",
+      "Best treatment for Angina",
+      "Medication for Angina",
+      "Can Angina be cured?"
+    ],
+    "responses": [
+      "Treatment for Angina depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "angina_doctor",
+    "patterns": [
+      "Which doctor should I see for Angina?",
+      "What kind of specialist treats Angina?",
+      "Do I need a doctor for Angina?",
+      "Is Angina serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Cardiologist, for Angina."
+    ]
+  },
+  {
+    "tag": "angina_emergency",
+    "patterns": [
+      "Is Angina an emergency?",
+      "When should I go to ER for Angina?",
+      "Urgent signs of Angina",
+      "What if Angina gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Angina may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "ankylosing_spondylitis_symptoms",
+    "patterns": [
+      "What are the symptoms of Ankylosing spondylitis?",
+      "How do I know if I have Ankylosing spondylitis?",
+      "Signs of Ankylosing spondylitis",
+      "Is Ankylosing spondylitis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Ankylosing spondylitis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "ankylosing_spondylitis_treatment",
+    "patterns": [
+      "How is Ankylosing spondylitis treated?",
+      "Best treatment for Ankylosing spondylitis",
+      "Medication for Ankylosing spondylitis",
+      "Can Ankylosing spondylitis be cured?"
+    ],
+    "responses": [
+      "Treatment for Ankylosing spondylitis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "ankylosing_spondylitis_doctor",
+    "patterns": [
+      "Which doctor should I see for Ankylosing spondylitis?",
+      "What kind of specialist treats Ankylosing spondylitis?",
+      "Do I need a doctor for Ankylosing spondylitis?",
+      "Is Ankylosing spondylitis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Rheumatologist, for Ankylosing spondylitis."
+    ]
+  },
+  {
+    "tag": "ankylosing_spondylitis_emergency",
+    "patterns": [
+      "Is Ankylosing spondylitis an emergency?",
+      "When should I go to ER for Ankylosing spondylitis?",
+      "Urgent signs of Ankylosing spondylitis",
+      "What if Ankylosing spondylitis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Ankylosing spondylitis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "anorexia_nervosa_symptoms",
+    "patterns": [
+      "What are the symptoms of Anorexia nervosa?",
+      "How do I know if I have Anorexia nervosa?",
+      "Signs of Anorexia nervosa",
+      "Is Anorexia nervosa dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Anorexia nervosa may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "anorexia_nervosa_treatment",
+    "patterns": [
+      "How is Anorexia nervosa treated?",
+      "Best treatment for Anorexia nervosa",
+      "Medication for Anorexia nervosa",
+      "Can Anorexia nervosa be cured?"
+    ],
+    "responses": [
+      "Treatment for Anorexia nervosa depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "anorexia_nervosa_doctor",
+    "patterns": [
+      "Which doctor should I see for Anorexia nervosa?",
+      "What kind of specialist treats Anorexia nervosa?",
+      "Do I need a doctor for Anorexia nervosa?",
+      "Is Anorexia nervosa serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Psychiatrist, for Anorexia nervosa."
+    ]
+  },
+  {
+    "tag": "anorexia_nervosa_emergency",
+    "patterns": [
+      "Is Anorexia nervosa an emergency?",
+      "When should I go to ER for Anorexia nervosa?",
+      "Urgent signs of Anorexia nervosa",
+      "What if Anorexia nervosa gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Anorexia nervosa may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "anxiety_disorders_symptoms",
+    "patterns": [
+      "What are the symptoms of Anxiety disorders?",
+      "How do I know if I have Anxiety disorders?",
+      "Signs of Anxiety disorders",
+      "Is Anxiety disorders dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Anxiety disorders may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "anxiety_disorders_treatment",
+    "patterns": [
+      "How is Anxiety disorders treated?",
+      "Best treatment for Anxiety disorders",
+      "Medication for Anxiety disorders",
+      "Can Anxiety disorders be cured?"
+    ],
+    "responses": [
+      "Treatment for Anxiety disorders depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "anxiety_disorders_doctor",
+    "patterns": [
+      "Which doctor should I see for Anxiety disorders?",
+      "What kind of specialist treats Anxiety disorders?",
+      "Do I need a doctor for Anxiety disorders?",
+      "Is Anxiety disorders serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Psychiatrist, for Anxiety disorders."
+    ]
+  },
+  {
+    "tag": "anxiety_disorders_emergency",
+    "patterns": [
+      "Is Anxiety disorders an emergency?",
+      "When should I go to ER for Anxiety disorders?",
+      "Urgent signs of Anxiety disorders",
+      "What if Anxiety disorders gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Anxiety disorders may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "arrhythmia_symptoms",
+    "patterns": [
+      "What are the symptoms of Arrhythmia?",
+      "How do I know if I have Arrhythmia?",
+      "Signs of Arrhythmia",
+      "Is Arrhythmia dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Arrhythmia may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "arrhythmia_treatment",
+    "patterns": [
+      "How is Arrhythmia treated?",
+      "Best treatment for Arrhythmia",
+      "Medication for Arrhythmia",
+      "Can Arrhythmia be cured?"
+    ],
+    "responses": [
+      "Treatment for Arrhythmia depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "arrhythmia_doctor",
+    "patterns": [
+      "Which doctor should I see for Arrhythmia?",
+      "What kind of specialist treats Arrhythmia?",
+      "Do I need a doctor for Arrhythmia?",
+      "Is Arrhythmia serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Cardiologist, for Arrhythmia."
+    ]
+  },
+  {
+    "tag": "arrhythmia_emergency",
+    "patterns": [
+      "Is Arrhythmia an emergency?",
+      "When should I go to ER for Arrhythmia?",
+      "Urgent signs of Arrhythmia",
+      "What if Arrhythmia gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Arrhythmia may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "arthritis_symptoms",
+    "patterns": [
+      "What are the symptoms of Arthritis?",
+      "How do I know if I have Arthritis?",
+      "Signs of Arthritis",
+      "Is Arthritis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Arthritis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "arthritis_treatment",
+    "patterns": [
+      "How is Arthritis treated?",
+      "Best treatment for Arthritis",
+      "Medication for Arthritis",
+      "Can Arthritis be cured?"
+    ],
+    "responses": [
+      "Treatment for Arthritis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "arthritis_doctor",
+    "patterns": [
+      "Which doctor should I see for Arthritis?",
+      "What kind of specialist treats Arthritis?",
+      "Do I need a doctor for Arthritis?",
+      "Is Arthritis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Rheumatologist, for Arthritis."
+    ]
+  },
+  {
+    "tag": "arthritis_emergency",
+    "patterns": [
+      "Is Arthritis an emergency?",
+      "When should I go to ER for Arthritis?",
+      "Urgent signs of Arthritis",
+      "What if Arthritis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Arthritis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "atrial_fibrillation_symptoms",
+    "patterns": [
+      "What are the symptoms of Atrial fibrillation?",
+      "How do I know if I have Atrial fibrillation?",
+      "Signs of Atrial fibrillation",
+      "Is Atrial fibrillation dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Atrial fibrillation may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "atrial_fibrillation_treatment",
+    "patterns": [
+      "How is Atrial fibrillation treated?",
+      "Best treatment for Atrial fibrillation",
+      "Medication for Atrial fibrillation",
+      "Can Atrial fibrillation be cured?"
+    ],
+    "responses": [
+      "Treatment for Atrial fibrillation depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "atrial_fibrillation_doctor",
+    "patterns": [
+      "Which doctor should I see for Atrial fibrillation?",
+      "What kind of specialist treats Atrial fibrillation?",
+      "Do I need a doctor for Atrial fibrillation?",
+      "Is Atrial fibrillation serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Cardiologist, for Atrial fibrillation."
+    ]
+  },
+  {
+    "tag": "atrial_fibrillation_emergency",
+    "patterns": [
+      "Is Atrial fibrillation an emergency?",
+      "When should I go to ER for Atrial fibrillation?",
+      "Urgent signs of Atrial fibrillation",
+      "What if Atrial fibrillation gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Atrial fibrillation may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "autism_spectrum_disorder_symptoms",
+    "patterns": [
+      "What are the symptoms of Autism spectrum disorder?",
+      "How do I know if I have Autism spectrum disorder?",
+      "Signs of Autism spectrum disorder",
+      "Is Autism spectrum disorder dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Autism spectrum disorder may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "autism_spectrum_disorder_treatment",
+    "patterns": [
+      "How is Autism spectrum disorder treated?",
+      "Best treatment for Autism spectrum disorder",
+      "Medication for Autism spectrum disorder",
+      "Can Autism spectrum disorder be cured?"
+    ],
+    "responses": [
+      "Treatment for Autism spectrum disorder depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "autism_spectrum_disorder_doctor",
+    "patterns": [
+      "Which doctor should I see for Autism spectrum disorder?",
+      "What kind of specialist treats Autism spectrum disorder?",
+      "Do I need a doctor for Autism spectrum disorder?",
+      "Is Autism spectrum disorder serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Developmental Pediatrician, for Autism spectrum disorder."
+    ]
+  },
+  {
+    "tag": "autism_spectrum_disorder_emergency",
+    "patterns": [
+      "Is Autism spectrum disorder an emergency?",
+      "When should I go to ER for Autism spectrum disorder?",
+      "Urgent signs of Autism spectrum disorder",
+      "What if Autism spectrum disorder gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Autism spectrum disorder may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "back_pain_symptoms",
+    "patterns": [
+      "What are the symptoms of Back pain?",
+      "How do I know if I have Back pain?",
+      "Signs of Back pain",
+      "Is Back pain dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Back pain may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "back_pain_treatment",
+    "patterns": [
+      "How is Back pain treated?",
+      "Best treatment for Back pain",
+      "Medication for Back pain",
+      "Can Back pain be cured?"
+    ],
+    "responses": [
+      "Treatment for Back pain depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "back_pain_doctor",
+    "patterns": [
+      "Which doctor should I see for Back pain?",
+      "What kind of specialist treats Back pain?",
+      "Do I need a doctor for Back pain?",
+      "Is Back pain serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Orthopedic Surgeon, for Back pain."
+    ]
+  },
+  {
+    "tag": "back_pain_emergency",
+    "patterns": [
+      "Is Back pain an emergency?",
+      "When should I go to ER for Back pain?",
+      "Urgent signs of Back pain",
+      "What if Back pain gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Back pain may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bacterial_vaginosis_symptoms",
+    "patterns": [
+      "What are the symptoms of Bacterial vaginosis?",
+      "How do I know if I have Bacterial vaginosis?",
+      "Signs of Bacterial vaginosis",
+      "Is Bacterial vaginosis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bacterial vaginosis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bacterial_vaginosis_treatment",
+    "patterns": [
+      "How is Bacterial vaginosis treated?",
+      "Best treatment for Bacterial vaginosis",
+      "Medication for Bacterial vaginosis",
+      "Can Bacterial vaginosis be cured?"
+    ],
+    "responses": [
+      "Treatment for Bacterial vaginosis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bacterial_vaginosis_doctor",
+    "patterns": [
+      "Which doctor should I see for Bacterial vaginosis?",
+      "What kind of specialist treats Bacterial vaginosis?",
+      "Do I need a doctor for Bacterial vaginosis?",
+      "Is Bacterial vaginosis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Gynecologist, for Bacterial vaginosis."
+    ]
+  },
+  {
+    "tag": "bacterial_vaginosis_emergency",
+    "patterns": [
+      "Is Bacterial vaginosis an emergency?",
+      "When should I go to ER for Bacterial vaginosis?",
+      "Urgent signs of Bacterial vaginosis",
+      "What if Bacterial vaginosis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bacterial vaginosis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "baker's_cyst_symptoms",
+    "patterns": [
+      "What are the symptoms of Baker's cyst?",
+      "How do I know if I have Baker's cyst?",
+      "Signs of Baker's cyst",
+      "Is Baker's cyst dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Baker's cyst may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "baker's_cyst_treatment",
+    "patterns": [
+      "How is Baker's cyst treated?",
+      "Best treatment for Baker's cyst",
+      "Medication for Baker's cyst",
+      "Can Baker's cyst be cured?"
+    ],
+    "responses": [
+      "Treatment for Baker's cyst depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "baker's_cyst_doctor",
+    "patterns": [
+      "Which doctor should I see for Baker's cyst?",
+      "What kind of specialist treats Baker's cyst?",
+      "Do I need a doctor for Baker's cyst?",
+      "Is Baker's cyst serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Orthopedic Doctor, for Baker's cyst."
+    ]
+  },
+  {
+    "tag": "baker's_cyst_emergency",
+    "patterns": [
+      "Is Baker's cyst an emergency?",
+      "When should I go to ER for Baker's cyst?",
+      "Urgent signs of Baker's cyst",
+      "What if Baker's cyst gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Baker's cyst may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bell's_palsy_symptoms",
+    "patterns": [
+      "What are the symptoms of Bell's palsy?",
+      "How do I know if I have Bell's palsy?",
+      "Signs of Bell's palsy",
+      "Is Bell's palsy dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bell's palsy may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bell's_palsy_treatment",
+    "patterns": [
+      "How is Bell's palsy treated?",
+      "Best treatment for Bell's palsy",
+      "Medication for Bell's palsy",
+      "Can Bell's palsy be cured?"
+    ],
+    "responses": [
+      "Treatment for Bell's palsy depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bell's_palsy_doctor",
+    "patterns": [
+      "Which doctor should I see for Bell's palsy?",
+      "What kind of specialist treats Bell's palsy?",
+      "Do I need a doctor for Bell's palsy?",
+      "Is Bell's palsy serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Neurologist, for Bell's palsy."
+    ]
+  },
+  {
+    "tag": "bell's_palsy_emergency",
+    "patterns": [
+      "Is Bell's palsy an emergency?",
+      "When should I go to ER for Bell's palsy?",
+      "Urgent signs of Bell's palsy",
+      "What if Bell's palsy gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bell's palsy may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bipolar_disorder_symptoms",
+    "patterns": [
+      "What are the symptoms of Bipolar disorder?",
+      "How do I know if I have Bipolar disorder?",
+      "Signs of Bipolar disorder",
+      "Is Bipolar disorder dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bipolar disorder may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bipolar_disorder_treatment",
+    "patterns": [
+      "How is Bipolar disorder treated?",
+      "Best treatment for Bipolar disorder",
+      "Medication for Bipolar disorder",
+      "Can Bipolar disorder be cured?"
+    ],
+    "responses": [
+      "Treatment for Bipolar disorder depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bipolar_disorder_doctor",
+    "patterns": [
+      "Which doctor should I see for Bipolar disorder?",
+      "What kind of specialist treats Bipolar disorder?",
+      "Do I need a doctor for Bipolar disorder?",
+      "Is Bipolar disorder serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Psychiatrist, for Bipolar disorder."
+    ]
+  },
+  {
+    "tag": "bipolar_disorder_emergency",
+    "patterns": [
+      "Is Bipolar disorder an emergency?",
+      "When should I go to ER for Bipolar disorder?",
+      "Urgent signs of Bipolar disorder",
+      "What if Bipolar disorder gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bipolar disorder may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bladder_cancer_symptoms",
+    "patterns": [
+      "What are the symptoms of Bladder cancer?",
+      "How do I know if I have Bladder cancer?",
+      "Signs of Bladder cancer",
+      "Is Bladder cancer dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bladder cancer may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bladder_cancer_treatment",
+    "patterns": [
+      "How is Bladder cancer treated?",
+      "Best treatment for Bladder cancer",
+      "Medication for Bladder cancer",
+      "Can Bladder cancer be cured?"
+    ],
+    "responses": [
+      "Treatment for Bladder cancer depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bladder_cancer_doctor",
+    "patterns": [
+      "Which doctor should I see for Bladder cancer?",
+      "What kind of specialist treats Bladder cancer?",
+      "Do I need a doctor for Bladder cancer?",
+      "Is Bladder cancer serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Urologist, for Bladder cancer."
+    ]
+  },
+  {
+    "tag": "bladder_cancer_emergency",
+    "patterns": [
+      "Is Bladder cancer an emergency?",
+      "When should I go to ER for Bladder cancer?",
+      "Urgent signs of Bladder cancer",
+      "What if Bladder cancer gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bladder cancer may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bladder_pain_syndrome_symptoms",
+    "patterns": [
+      "What are the symptoms of Bladder pain syndrome?",
+      "How do I know if I have Bladder pain syndrome?",
+      "Signs of Bladder pain syndrome",
+      "Is Bladder pain syndrome dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bladder pain syndrome may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bladder_pain_syndrome_treatment",
+    "patterns": [
+      "How is Bladder pain syndrome treated?",
+      "Best treatment for Bladder pain syndrome",
+      "Medication for Bladder pain syndrome",
+      "Can Bladder pain syndrome be cured?"
+    ],
+    "responses": [
+      "Treatment for Bladder pain syndrome depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bladder_pain_syndrome_doctor",
+    "patterns": [
+      "Which doctor should I see for Bladder pain syndrome?",
+      "What kind of specialist treats Bladder pain syndrome?",
+      "Do I need a doctor for Bladder pain syndrome?",
+      "Is Bladder pain syndrome serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Urologist, for Bladder pain syndrome."
+    ]
+  },
+  {
+    "tag": "bladder_pain_syndrome_emergency",
+    "patterns": [
+      "Is Bladder pain syndrome an emergency?",
+      "When should I go to ER for Bladder pain syndrome?",
+      "Urgent signs of Bladder pain syndrome",
+      "What if Bladder pain syndrome gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bladder pain syndrome may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+
+  {
+    "tag": "acute_rheumatic_fever_symptoms",
+    "patterns": [
+      "What are the symptoms of Acute rheumatic fever?",
+      "How do I know if I have Acute rheumatic fever?",
+      "Signs of Acute rheumatic fever",
+      "Is Acute rheumatic fever dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Acute rheumatic fever may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "acute_rheumatic_fever_treatment",
+    "patterns": [
+      "How is Acute rheumatic fever treated?",
+      "Best treatment for Acute rheumatic fever",
+      "Medication for Acute rheumatic fever",
+      "Can Acute rheumatic fever be cured?"
+    ],
+    "responses": [
+      "Treatment for Acute rheumatic fever depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "acute_rheumatic_fever_doctor",
+    "patterns": [
+      "Which doctor should I see for Acute rheumatic fever?",
+      "What kind of specialist treats Acute rheumatic fever?",
+      "Do I need a doctor for Acute rheumatic fever?",
+      "Is Acute rheumatic fever serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Cardiologist, for Acute rheumatic fever."
+    ]
+  },
+  {
+    "tag": "acute_rheumatic_fever_emergency",
+    "patterns": [
+      "Is Acute rheumatic fever an emergency?",
+      "When should I go to ER for Acute rheumatic fever?",
+      "Urgent signs of Acute rheumatic fever",
+      "What if Acute rheumatic fever gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Acute rheumatic fever may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "allergies_symptoms",
+    "patterns": [
+      "What are the symptoms of Allergies?",
+      "How do I know if I have Allergies?",
+      "Signs of Allergies",
+      "Is Allergies dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Allergies may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "allergies_treatment",
+    "patterns": [
+      "How is Allergies treated?",
+      "Best treatment for Allergies",
+      "Medication for Allergies",
+      "Can Allergies be cured?"
+    ],
+    "responses": [
+      "Treatment for Allergies depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "allergies_doctor",
+    "patterns": [
+      "Which doctor should I see for Allergies?",
+      "What kind of specialist treats Allergies?",
+      "Do I need a doctor for Allergies?",
+      "Is Allergies serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Allergist, for Allergies."
+    ]
+  },
+  {
+    "tag": "allergies_emergency",
+    "patterns": [
+      "Is Allergies an emergency?",
+      "When should I go to ER for Allergies?",
+      "Urgent signs of Allergies",
+      "What if Allergies gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Allergies may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "alzheimers_disease_symptoms",
+    "patterns": [
+      "What are the symptoms of Alzheimer\u2019s disease?",
+      "How do I know if I have Alzheimer\u2019s disease?",
+      "Signs of Alzheimer\u2019s disease",
+      "Is Alzheimer\u2019s disease dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Alzheimer\u2019s disease may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "alzheimers_disease_treatment",
+    "patterns": [
+      "How is Alzheimer\u2019s disease treated?",
+      "Best treatment for Alzheimer\u2019s disease",
+      "Medication for Alzheimer\u2019s disease",
+      "Can Alzheimer\u2019s disease be cured?"
+    ],
+    "responses": [
+      "Treatment for Alzheimer\u2019s disease depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "alzheimers_disease_doctor",
+    "patterns": [
+      "Which doctor should I see for Alzheimer\u2019s disease?",
+      "What kind of specialist treats Alzheimer\u2019s disease?",
+      "Do I need a doctor for Alzheimer\u2019s disease?",
+      "Is Alzheimer\u2019s disease serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Neurologist, for Alzheimer\u2019s disease."
+    ]
+  },
+  {
+    "tag": "alzheimers_disease_emergency",
+    "patterns": [
+      "Is Alzheimer\u2019s disease an emergency?",
+      "When should I go to ER for Alzheimer\u2019s disease?",
+      "Urgent signs of Alzheimer\u2019s disease",
+      "What if Alzheimer\u2019s disease gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Alzheimer\u2019s disease may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "anaemia_symptoms",
+    "patterns": [
+      "What are the symptoms of Anaemia?",
+      "How do I know if I have Anaemia?",
+      "Signs of Anaemia",
+      "Is Anaemia dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Anaemia may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "anaemia_treatment",
+    "patterns": [
+      "How is Anaemia treated?",
+      "Best treatment for Anaemia",
+      "Medication for Anaemia",
+      "Can Anaemia be cured?"
+    ],
+    "responses": [
+      "Treatment for Anaemia depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "anaemia_doctor",
+    "patterns": [
+      "Which doctor should I see for Anaemia?",
+      "What kind of specialist treats Anaemia?",
+      "Do I need a doctor for Anaemia?",
+      "Is Anaemia serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Hematologist, for Anaemia."
+    ]
+  },
+  {
+    "tag": "anaemia_emergency",
+    "patterns": [
+      "Is Anaemia an emergency?",
+      "When should I go to ER for Anaemia?",
+      "Urgent signs of Anaemia",
+      "What if Anaemia gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Anaemia may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "anaphylaxis_symptoms",
+    "patterns": [
+      "What are the symptoms of Anaphylaxis?",
+      "How do I know if I have Anaphylaxis?",
+      "Signs of Anaphylaxis",
+      "Is Anaphylaxis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Anaphylaxis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "anaphylaxis_treatment",
+    "patterns": [
+      "How is Anaphylaxis treated?",
+      "Best treatment for Anaphylaxis",
+      "Medication for Anaphylaxis",
+      "Can Anaphylaxis be cured?"
+    ],
+    "responses": [
+      "Treatment for Anaphylaxis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "anaphylaxis_doctor",
+    "patterns": [
+      "Which doctor should I see for Anaphylaxis?",
+      "What kind of specialist treats Anaphylaxis?",
+      "Do I need a doctor for Anaphylaxis?",
+      "Is Anaphylaxis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Emergency Physician, for Anaphylaxis."
+    ]
+  },
+  {
+    "tag": "anaphylaxis_emergency",
+    "patterns": [
+      "Is Anaphylaxis an emergency?",
+      "When should I go to ER for Anaphylaxis?",
+      "Urgent signs of Anaphylaxis",
+      "What if Anaphylaxis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Anaphylaxis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "angina_symptoms",
+    "patterns": [
+      "What are the symptoms of Angina?",
+      "How do I know if I have Angina?",
+      "Signs of Angina",
+      "Is Angina dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Angina may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "angina_treatment",
+    "patterns": [
+      "How is Angina treated?",
+      "Best treatment for Angina",
+      "Medication for Angina",
+      "Can Angina be cured?"
+    ],
+    "responses": [
+      "Treatment for Angina depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "angina_doctor",
+    "patterns": [
+      "Which doctor should I see for Angina?",
+      "What kind of specialist treats Angina?",
+      "Do I need a doctor for Angina?",
+      "Is Angina serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Cardiologist, for Angina."
+    ]
+  },
+  {
+    "tag": "angina_emergency",
+    "patterns": [
+      "Is Angina an emergency?",
+      "When should I go to ER for Angina?",
+      "Urgent signs of Angina",
+      "What if Angina gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Angina may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "ankylosing_spondylitis_symptoms",
+    "patterns": [
+      "What are the symptoms of Ankylosing spondylitis?",
+      "How do I know if I have Ankylosing spondylitis?",
+      "Signs of Ankylosing spondylitis",
+      "Is Ankylosing spondylitis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Ankylosing spondylitis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "ankylosing_spondylitis_treatment",
+    "patterns": [
+      "How is Ankylosing spondylitis treated?",
+      "Best treatment for Ankylosing spondylitis",
+      "Medication for Ankylosing spondylitis",
+      "Can Ankylosing spondylitis be cured?"
+    ],
+    "responses": [
+      "Treatment for Ankylosing spondylitis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "ankylosing_spondylitis_doctor",
+    "patterns": [
+      "Which doctor should I see for Ankylosing spondylitis?",
+      "What kind of specialist treats Ankylosing spondylitis?",
+      "Do I need a doctor for Ankylosing spondylitis?",
+      "Is Ankylosing spondylitis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Rheumatologist, for Ankylosing spondylitis."
+    ]
+  },
+  {
+    "tag": "ankylosing_spondylitis_emergency",
+    "patterns": [
+      "Is Ankylosing spondylitis an emergency?",
+      "When should I go to ER for Ankylosing spondylitis?",
+      "Urgent signs of Ankylosing spondylitis",
+      "What if Ankylosing spondylitis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Ankylosing spondylitis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "anorexia_nervosa_symptoms",
+    "patterns": [
+      "What are the symptoms of Anorexia nervosa?",
+      "How do I know if I have Anorexia nervosa?",
+      "Signs of Anorexia nervosa",
+      "Is Anorexia nervosa dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Anorexia nervosa may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "anorexia_nervosa_treatment",
+    "patterns": [
+      "How is Anorexia nervosa treated?",
+      "Best treatment for Anorexia nervosa",
+      "Medication for Anorexia nervosa",
+      "Can Anorexia nervosa be cured?"
+    ],
+    "responses": [
+      "Treatment for Anorexia nervosa depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "anorexia_nervosa_doctor",
+    "patterns": [
+      "Which doctor should I see for Anorexia nervosa?",
+      "What kind of specialist treats Anorexia nervosa?",
+      "Do I need a doctor for Anorexia nervosa?",
+      "Is Anorexia nervosa serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Psychiatrist, for Anorexia nervosa."
+    ]
+  },
+  {
+    "tag": "anorexia_nervosa_emergency",
+    "patterns": [
+      "Is Anorexia nervosa an emergency?",
+      "When should I go to ER for Anorexia nervosa?",
+      "Urgent signs of Anorexia nervosa",
+      "What if Anorexia nervosa gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Anorexia nervosa may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "anxiety_disorders_symptoms",
+    "patterns": [
+      "What are the symptoms of Anxiety disorders?",
+      "How do I know if I have Anxiety disorders?",
+      "Signs of Anxiety disorders",
+      "Is Anxiety disorders dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Anxiety disorders may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "anxiety_disorders_treatment",
+    "patterns": [
+      "How is Anxiety disorders treated?",
+      "Best treatment for Anxiety disorders",
+      "Medication for Anxiety disorders",
+      "Can Anxiety disorders be cured?"
+    ],
+    "responses": [
+      "Treatment for Anxiety disorders depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "anxiety_disorders_doctor",
+    "patterns": [
+      "Which doctor should I see for Anxiety disorders?",
+      "What kind of specialist treats Anxiety disorders?",
+      "Do I need a doctor for Anxiety disorders?",
+      "Is Anxiety disorders serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Psychiatrist, for Anxiety disorders."
+    ]
+  },
+  {
+    "tag": "anxiety_disorders_emergency",
+    "patterns": [
+      "Is Anxiety disorders an emergency?",
+      "When should I go to ER for Anxiety disorders?",
+      "Urgent signs of Anxiety disorders",
+      "What if Anxiety disorders gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Anxiety disorders may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "arrhythmia_symptoms",
+    "patterns": [
+      "What are the symptoms of Arrhythmia?",
+      "How do I know if I have Arrhythmia?",
+      "Signs of Arrhythmia",
+      "Is Arrhythmia dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Arrhythmia may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "arrhythmia_treatment",
+    "patterns": [
+      "How is Arrhythmia treated?",
+      "Best treatment for Arrhythmia",
+      "Medication for Arrhythmia",
+      "Can Arrhythmia be cured?"
+    ],
+    "responses": [
+      "Treatment for Arrhythmia depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "arrhythmia_doctor",
+    "patterns": [
+      "Which doctor should I see for Arrhythmia?",
+      "What kind of specialist treats Arrhythmia?",
+      "Do I need a doctor for Arrhythmia?",
+      "Is Arrhythmia serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Cardiologist, for Arrhythmia."
+    ]
+  },
+  {
+    "tag": "arrhythmia_emergency",
+    "patterns": [
+      "Is Arrhythmia an emergency?",
+      "When should I go to ER for Arrhythmia?",
+      "Urgent signs of Arrhythmia",
+      "What if Arrhythmia gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Arrhythmia may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "arthritis_symptoms",
+    "patterns": [
+      "What are the symptoms of Arthritis?",
+      "How do I know if I have Arthritis?",
+      "Signs of Arthritis",
+      "Is Arthritis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Arthritis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "arthritis_treatment",
+    "patterns": [
+      "How is Arthritis treated?",
+      "Best treatment for Arthritis",
+      "Medication for Arthritis",
+      "Can Arthritis be cured?"
+    ],
+    "responses": [
+      "Treatment for Arthritis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "arthritis_doctor",
+    "patterns": [
+      "Which doctor should I see for Arthritis?",
+      "What kind of specialist treats Arthritis?",
+      "Do I need a doctor for Arthritis?",
+      "Is Arthritis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Rheumatologist, for Arthritis."
+    ]
+  },
+  {
+    "tag": "arthritis_emergency",
+    "patterns": [
+      "Is Arthritis an emergency?",
+      "When should I go to ER for Arthritis?",
+      "Urgent signs of Arthritis",
+      "What if Arthritis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Arthritis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "atrial_fibrillation_symptoms",
+    "patterns": [
+      "What are the symptoms of Atrial fibrillation?",
+      "How do I know if I have Atrial fibrillation?",
+      "Signs of Atrial fibrillation",
+      "Is Atrial fibrillation dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Atrial fibrillation may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "atrial_fibrillation_treatment",
+    "patterns": [
+      "How is Atrial fibrillation treated?",
+      "Best treatment for Atrial fibrillation",
+      "Medication for Atrial fibrillation",
+      "Can Atrial fibrillation be cured?"
+    ],
+    "responses": [
+      "Treatment for Atrial fibrillation depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "atrial_fibrillation_doctor",
+    "patterns": [
+      "Which doctor should I see for Atrial fibrillation?",
+      "What kind of specialist treats Atrial fibrillation?",
+      "Do I need a doctor for Atrial fibrillation?",
+      "Is Atrial fibrillation serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Cardiologist, for Atrial fibrillation."
+    ]
+  },
+  {
+    "tag": "atrial_fibrillation_emergency",
+    "patterns": [
+      "Is Atrial fibrillation an emergency?",
+      "When should I go to ER for Atrial fibrillation?",
+      "Urgent signs of Atrial fibrillation",
+      "What if Atrial fibrillation gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Atrial fibrillation may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "autism_spectrum_disorder_symptoms",
+    "patterns": [
+      "What are the symptoms of Autism spectrum disorder?",
+      "How do I know if I have Autism spectrum disorder?",
+      "Signs of Autism spectrum disorder",
+      "Is Autism spectrum disorder dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Autism spectrum disorder may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "autism_spectrum_disorder_treatment",
+    "patterns": [
+      "How is Autism spectrum disorder treated?",
+      "Best treatment for Autism spectrum disorder",
+      "Medication for Autism spectrum disorder",
+      "Can Autism spectrum disorder be cured?"
+    ],
+    "responses": [
+      "Treatment for Autism spectrum disorder depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "autism_spectrum_disorder_doctor",
+    "patterns": [
+      "Which doctor should I see for Autism spectrum disorder?",
+      "What kind of specialist treats Autism spectrum disorder?",
+      "Do I need a doctor for Autism spectrum disorder?",
+      "Is Autism spectrum disorder serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Developmental Pediatrician, for Autism spectrum disorder."
+    ]
+  },
+  {
+    "tag": "autism_spectrum_disorder_emergency",
+    "patterns": [
+      "Is Autism spectrum disorder an emergency?",
+      "When should I go to ER for Autism spectrum disorder?",
+      "Urgent signs of Autism spectrum disorder",
+      "What if Autism spectrum disorder gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Autism spectrum disorder may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "back_pain_symptoms",
+    "patterns": [
+      "What are the symptoms of Back pain?",
+      "How do I know if I have Back pain?",
+      "Signs of Back pain",
+      "Is Back pain dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Back pain may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "back_pain_treatment",
+    "patterns": [
+      "How is Back pain treated?",
+      "Best treatment for Back pain",
+      "Medication for Back pain",
+      "Can Back pain be cured?"
+    ],
+    "responses": [
+      "Treatment for Back pain depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "back_pain_doctor",
+    "patterns": [
+      "Which doctor should I see for Back pain?",
+      "What kind of specialist treats Back pain?",
+      "Do I need a doctor for Back pain?",
+      "Is Back pain serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Orthopedic Surgeon, for Back pain."
+    ]
+  },
+  {
+    "tag": "back_pain_emergency",
+    "patterns": [
+      "Is Back pain an emergency?",
+      "When should I go to ER for Back pain?",
+      "Urgent signs of Back pain",
+      "What if Back pain gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Back pain may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bacterial_vaginosis_symptoms",
+    "patterns": [
+      "What are the symptoms of Bacterial vaginosis?",
+      "How do I know if I have Bacterial vaginosis?",
+      "Signs of Bacterial vaginosis",
+      "Is Bacterial vaginosis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bacterial vaginosis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bacterial_vaginosis_treatment",
+    "patterns": [
+      "How is Bacterial vaginosis treated?",
+      "Best treatment for Bacterial vaginosis",
+      "Medication for Bacterial vaginosis",
+      "Can Bacterial vaginosis be cured?"
+    ],
+    "responses": [
+      "Treatment for Bacterial vaginosis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bacterial_vaginosis_doctor",
+    "patterns": [
+      "Which doctor should I see for Bacterial vaginosis?",
+      "What kind of specialist treats Bacterial vaginosis?",
+      "Do I need a doctor for Bacterial vaginosis?",
+      "Is Bacterial vaginosis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Gynecologist, for Bacterial vaginosis."
+    ]
+  },
+  {
+    "tag": "bacterial_vaginosis_emergency",
+    "patterns": [
+      "Is Bacterial vaginosis an emergency?",
+      "When should I go to ER for Bacterial vaginosis?",
+      "Urgent signs of Bacterial vaginosis",
+      "What if Bacterial vaginosis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bacterial vaginosis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "baker's_cyst_symptoms",
+    "patterns": [
+      "What are the symptoms of Baker's cyst?",
+      "How do I know if I have Baker's cyst?",
+      "Signs of Baker's cyst",
+      "Is Baker's cyst dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Baker's cyst may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "baker's_cyst_treatment",
+    "patterns": [
+      "How is Baker's cyst treated?",
+      "Best treatment for Baker's cyst",
+      "Medication for Baker's cyst",
+      "Can Baker's cyst be cured?"
+    ],
+    "responses": [
+      "Treatment for Baker's cyst depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "baker's_cyst_doctor",
+    "patterns": [
+      "Which doctor should I see for Baker's cyst?",
+      "What kind of specialist treats Baker's cyst?",
+      "Do I need a doctor for Baker's cyst?",
+      "Is Baker's cyst serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Orthopedic Doctor, for Baker's cyst."
+    ]
+  },
+  {
+    "tag": "baker's_cyst_emergency",
+    "patterns": [
+      "Is Baker's cyst an emergency?",
+      "When should I go to ER for Baker's cyst?",
+      "Urgent signs of Baker's cyst",
+      "What if Baker's cyst gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Baker's cyst may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bell's_palsy_symptoms",
+    "patterns": [
+      "What are the symptoms of Bell's palsy?",
+      "How do I know if I have Bell's palsy?",
+      "Signs of Bell's palsy",
+      "Is Bell's palsy dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bell's palsy may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bell's_palsy_treatment",
+    "patterns": [
+      "How is Bell's palsy treated?",
+      "Best treatment for Bell's palsy",
+      "Medication for Bell's palsy",
+      "Can Bell's palsy be cured?"
+    ],
+    "responses": [
+      "Treatment for Bell's palsy depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bell's_palsy_doctor",
+    "patterns": [
+      "Which doctor should I see for Bell's palsy?",
+      "What kind of specialist treats Bell's palsy?",
+      "Do I need a doctor for Bell's palsy?",
+      "Is Bell's palsy serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Neurologist, for Bell's palsy."
+    ]
+  },
+  {
+    "tag": "bell's_palsy_emergency",
+    "patterns": [
+      "Is Bell's palsy an emergency?",
+      "When should I go to ER for Bell's palsy?",
+      "Urgent signs of Bell's palsy",
+      "What if Bell's palsy gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bell's palsy may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bipolar_disorder_symptoms",
+    "patterns": [
+      "What are the symptoms of Bipolar disorder?",
+      "How do I know if I have Bipolar disorder?",
+      "Signs of Bipolar disorder",
+      "Is Bipolar disorder dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bipolar disorder may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bipolar_disorder_treatment",
+    "patterns": [
+      "How is Bipolar disorder treated?",
+      "Best treatment for Bipolar disorder",
+      "Medication for Bipolar disorder",
+      "Can Bipolar disorder be cured?"
+    ],
+    "responses": [
+      "Treatment for Bipolar disorder depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bipolar_disorder_doctor",
+    "patterns": [
+      "Which doctor should I see for Bipolar disorder?",
+      "What kind of specialist treats Bipolar disorder?",
+      "Do I need a doctor for Bipolar disorder?",
+      "Is Bipolar disorder serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Psychiatrist, for Bipolar disorder."
+    ]
+  },
+  {
+    "tag": "bipolar_disorder_emergency",
+    "patterns": [
+      "Is Bipolar disorder an emergency?",
+      "When should I go to ER for Bipolar disorder?",
+      "Urgent signs of Bipolar disorder",
+      "What if Bipolar disorder gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bipolar disorder may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bladder_cancer_symptoms",
+    "patterns": [
+      "What are the symptoms of Bladder cancer?",
+      "How do I know if I have Bladder cancer?",
+      "Signs of Bladder cancer",
+      "Is Bladder cancer dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bladder cancer may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bladder_cancer_treatment",
+    "patterns": [
+      "How is Bladder cancer treated?",
+      "Best treatment for Bladder cancer",
+      "Medication for Bladder cancer",
+      "Can Bladder cancer be cured?"
+    ],
+    "responses": [
+      "Treatment for Bladder cancer depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bladder_cancer_doctor",
+    "patterns": [
+      "Which doctor should I see for Bladder cancer?",
+      "What kind of specialist treats Bladder cancer?",
+      "Do I need a doctor for Bladder cancer?",
+      "Is Bladder cancer serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Urologist, for Bladder cancer."
+    ]
+  },
+  {
+    "tag": "bladder_cancer_emergency",
+    "patterns": [
+      "Is Bladder cancer an emergency?",
+      "When should I go to ER for Bladder cancer?",
+      "Urgent signs of Bladder cancer",
+      "What if Bladder cancer gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bladder cancer may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bladder_pain_syndrome_symptoms",
+    "patterns": [
+      "What are the symptoms of Bladder pain syndrome?",
+      "How do I know if I have Bladder pain syndrome?",
+      "Signs of Bladder pain syndrome",
+      "Is Bladder pain syndrome dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bladder pain syndrome may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bladder_pain_syndrome_treatment",
+    "patterns": [
+      "How is Bladder pain syndrome treated?",
+      "Best treatment for Bladder pain syndrome",
+      "Medication for Bladder pain syndrome",
+      "Can Bladder pain syndrome be cured?"
+    ],
+    "responses": [
+      "Treatment for Bladder pain syndrome depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bladder_pain_syndrome_doctor",
+    "patterns": [
+      "Which doctor should I see for Bladder pain syndrome?",
+      "What kind of specialist treats Bladder pain syndrome?",
+      "Do I need a doctor for Bladder pain syndrome?",
+      "Is Bladder pain syndrome serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Urologist, for Bladder pain syndrome."
+    ]
+  },
+  {
+    "tag": "bladder_pain_syndrome_emergency",
+    "patterns": [
+      "Is Bladder pain syndrome an emergency?",
+      "When should I go to ER for Bladder pain syndrome?",
+      "Urgent signs of Bladder pain syndrome",
+      "What if Bladder pain syndrome gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bladder pain syndrome may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "blepharitis_symptoms",
+    "patterns": [
+      "What are the symptoms of Blepharitis?",
+      "How do I know if I have Blepharitis?",
+      "Signs of Blepharitis",
+      "Is Blepharitis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Blepharitis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "blepharitis_treatment",
+    "patterns": [
+      "How is Blepharitis treated?",
+      "Best treatment for Blepharitis",
+      "Medication for Blepharitis",
+      "Can Blepharitis be cured?"
+    ],
+    "responses": [
+      "Treatment for Blepharitis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "blepharitis_doctor",
+    "patterns": [
+      "Which doctor should I see for Blepharitis?",
+      "What kind of specialist treats Blepharitis?",
+      "Do I need a doctor for Blepharitis?",
+      "Is Blepharitis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Ophthalmologist, for Blepharitis."
+    ]
+  },
+  {
+    "tag": "blepharitis_emergency",
+    "patterns": [
+      "Is Blepharitis an emergency?",
+      "When should I go to ER for Blepharitis?",
+      "Urgent signs of Blepharitis",
+      "What if Blepharitis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Blepharitis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bloating/gas_symptoms",
+    "patterns": [
+      "What are the symptoms of Bloating/gas?",
+      "How do I know if I have Bloating/gas?",
+      "Signs of Bloating/gas",
+      "Is Bloating/gas dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bloating/gas may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bloating/gas_treatment",
+    "patterns": [
+      "How is Bloating/gas treated?",
+      "Best treatment for Bloating/gas",
+      "Medication for Bloating/gas",
+      "Can Bloating/gas be cured?"
+    ],
+    "responses": [
+      "Treatment for Bloating/gas depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bloating/gas_doctor",
+    "patterns": [
+      "Which doctor should I see for Bloating/gas?",
+      "What kind of specialist treats Bloating/gas?",
+      "Do I need a doctor for Bloating/gas?",
+      "Is Bloating/gas serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Gastroenterologist, for Bloating/gas."
+    ]
+  },
+  {
+    "tag": "bloating/gas_emergency",
+    "patterns": [
+      "Is Bloating/gas an emergency?",
+      "When should I go to ER for Bloating/gas?",
+      "Urgent signs of Bloating/gas",
+      "What if Bloating/gas gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bloating/gas may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "boils_symptoms",
+    "patterns": [
+      "What are the symptoms of Boils?",
+      "How do I know if I have Boils?",
+      "Signs of Boils",
+      "Is Boils dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Boils may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "boils_treatment",
+    "patterns": [
+      "How is Boils treated?",
+      "Best treatment for Boils",
+      "Medication for Boils",
+      "Can Boils be cured?"
+    ],
+    "responses": [
+      "Treatment for Boils depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "boils_doctor",
+    "patterns": [
+      "Which doctor should I see for Boils?",
+      "What kind of specialist treats Boils?",
+      "Do I need a doctor for Boils?",
+      "Is Boils serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Dermatologist, for Boils."
+    ]
+  },
+  {
+    "tag": "boils_emergency",
+    "patterns": [
+      "Is Boils an emergency?",
+      "When should I go to ER for Boils?",
+      "Urgent signs of Boils",
+      "What if Boils gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Boils may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bone_cancer_symptoms",
+    "patterns": [
+      "What are the symptoms of Bone cancer?",
+      "How do I know if I have Bone cancer?",
+      "Signs of Bone cancer",
+      "Is Bone cancer dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bone cancer may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bone_cancer_treatment",
+    "patterns": [
+      "How is Bone cancer treated?",
+      "Best treatment for Bone cancer",
+      "Medication for Bone cancer",
+      "Can Bone cancer be cured?"
+    ],
+    "responses": [
+      "Treatment for Bone cancer depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bone_cancer_doctor",
+    "patterns": [
+      "Which doctor should I see for Bone cancer?",
+      "What kind of specialist treats Bone cancer?",
+      "Do I need a doctor for Bone cancer?",
+      "Is Bone cancer serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Oncologist, for Bone cancer."
+    ]
+  },
+  {
+    "tag": "bone_cancer_emergency",
+    "patterns": [
+      "Is Bone cancer an emergency?",
+      "When should I go to ER for Bone cancer?",
+      "Urgent signs of Bone cancer",
+      "What if Bone cancer gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bone cancer may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bone_cyst_symptoms",
+    "patterns": [
+      "What are the symptoms of Bone cyst?",
+      "How do I know if I have Bone cyst?",
+      "Signs of Bone cyst",
+      "Is Bone cyst dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bone cyst may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bone_cyst_treatment",
+    "patterns": [
+      "How is Bone cyst treated?",
+      "Best treatment for Bone cyst",
+      "Medication for Bone cyst",
+      "Can Bone cyst be cured?"
+    ],
+    "responses": [
+      "Treatment for Bone cyst depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bone_cyst_doctor",
+    "patterns": [
+      "Which doctor should I see for Bone cyst?",
+      "What kind of specialist treats Bone cyst?",
+      "Do I need a doctor for Bone cyst?",
+      "Is Bone cyst serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Orthopedic Surgeon, for Bone cyst."
+    ]
+  },
+  {
+    "tag": "bone_cyst_emergency",
+    "patterns": [
+      "Is Bone cyst an emergency?",
+      "When should I go to ER for Bone cyst?",
+      "Urgent signs of Bone cyst",
+      "What if Bone cyst gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bone cyst may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bowel_cancer_symptoms",
+    "patterns": [
+      "What are the symptoms of Bowel cancer?",
+      "How do I know if I have Bowel cancer?",
+      "Signs of Bowel cancer",
+      "Is Bowel cancer dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bowel cancer may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bowel_cancer_treatment",
+    "patterns": [
+      "How is Bowel cancer treated?",
+      "Best treatment for Bowel cancer",
+      "Medication for Bowel cancer",
+      "Can Bowel cancer be cured?"
+    ],
+    "responses": [
+      "Treatment for Bowel cancer depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bowel_cancer_doctor",
+    "patterns": [
+      "Which doctor should I see for Bowel cancer?",
+      "What kind of specialist treats Bowel cancer?",
+      "Do I need a doctor for Bowel cancer?",
+      "Is Bowel cancer serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Oncologist, for Bowel cancer."
+    ]
+  },
+  {
+    "tag": "bowel_cancer_emergency",
+    "patterns": [
+      "Is Bowel cancer an emergency?",
+      "When should I go to ER for Bowel cancer?",
+      "Urgent signs of Bowel cancer",
+      "What if Bowel cancer gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bowel cancer may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bowel_incontinence_symptoms",
+    "patterns": [
+      "What are the symptoms of Bowel incontinence?",
+      "How do I know if I have Bowel incontinence?",
+      "Signs of Bowel incontinence",
+      "Is Bowel incontinence dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bowel incontinence may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bowel_incontinence_treatment",
+    "patterns": [
+      "How is Bowel incontinence treated?",
+      "Best treatment for Bowel incontinence",
+      "Medication for Bowel incontinence",
+      "Can Bowel incontinence be cured?"
+    ],
+    "responses": [
+      "Treatment for Bowel incontinence depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bowel_incontinence_doctor",
+    "patterns": [
+      "Which doctor should I see for Bowel incontinence?",
+      "What kind of specialist treats Bowel incontinence?",
+      "Do I need a doctor for Bowel incontinence?",
+      "Is Bowel incontinence serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Gastroenterologist, for Bowel incontinence."
+    ]
+  },
+  {
+    "tag": "bowel_incontinence_emergency",
+    "patterns": [
+      "Is Bowel incontinence an emergency?",
+      "When should I go to ER for Bowel incontinence?",
+      "Urgent signs of Bowel incontinence",
+      "What if Bowel incontinence gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bowel incontinence may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bronchitis_symptoms",
+    "patterns": [
+      "What are the symptoms of Bronchitis?",
+      "How do I know if I have Bronchitis?",
+      "Signs of Bronchitis",
+      "Is Bronchitis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bronchitis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bronchitis_treatment",
+    "patterns": [
+      "How is Bronchitis treated?",
+      "Best treatment for Bronchitis",
+      "Medication for Bronchitis",
+      "Can Bronchitis be cured?"
+    ],
+    "responses": [
+      "Treatment for Bronchitis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bronchitis_doctor",
+    "patterns": [
+      "Which doctor should I see for Bronchitis?",
+      "What kind of specialist treats Bronchitis?",
+      "Do I need a doctor for Bronchitis?",
+      "Is Bronchitis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Pulmonologist, for Bronchitis."
+    ]
+  },
+  {
+    "tag": "bronchitis_emergency",
+    "patterns": [
+      "Is Bronchitis an emergency?",
+      "When should I go to ER for Bronchitis?",
+      "Urgent signs of Bronchitis",
+      "What if Bronchitis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bronchitis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "bursitis_symptoms",
+    "patterns": [
+      "What are the symptoms of Bursitis?",
+      "How do I know if I have Bursitis?",
+      "Signs of Bursitis",
+      "Is Bursitis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Bursitis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "bursitis_treatment",
+    "patterns": [
+      "How is Bursitis treated?",
+      "Best treatment for Bursitis",
+      "Medication for Bursitis",
+      "Can Bursitis be cured?"
+    ],
+    "responses": [
+      "Treatment for Bursitis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "bursitis_doctor",
+    "patterns": [
+      "Which doctor should I see for Bursitis?",
+      "What kind of specialist treats Bursitis?",
+      "Do I need a doctor for Bursitis?",
+      "Is Bursitis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Orthopedic Doctor, for Bursitis."
+    ]
+  },
+  {
+    "tag": "bursitis_emergency",
+    "patterns": [
+      "Is Bursitis an emergency?",
+      "When should I go to ER for Bursitis?",
+      "Urgent signs of Bursitis",
+      "What if Bursitis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Bursitis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "candidiasis_symptoms",
+    "patterns": [
+      "What are the symptoms of Candidiasis?",
+      "How do I know if I have Candidiasis?",
+      "Signs of Candidiasis",
+      "Is Candidiasis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Candidiasis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "candidiasis_treatment",
+    "patterns": [
+      "How is Candidiasis treated?",
+      "Best treatment for Candidiasis",
+      "Medication for Candidiasis",
+      "Can Candidiasis be cured?"
+    ],
+    "responses": [
+      "Treatment for Candidiasis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "candidiasis_doctor",
+    "patterns": [
+      "Which doctor should I see for Candidiasis?",
+      "What kind of specialist treats Candidiasis?",
+      "Do I need a doctor for Candidiasis?",
+      "Is Candidiasis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Infectious Disease Specialist, for Candidiasis."
+    ]
+  },
+  {
+    "tag": "candidiasis_emergency",
+    "patterns": [
+      "Is Candidiasis an emergency?",
+      "When should I go to ER for Candidiasis?",
+      "Urgent signs of Candidiasis",
+      "What if Candidiasis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Candidiasis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "cancer_general_symptoms",
+    "patterns": [
+      "What are the symptoms of Cancer (general)?",
+      "How do I know if I have Cancer (general)?",
+      "Signs of Cancer (general)",
+      "Is Cancer (general) dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Cancer (general) may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "cancer_general_treatment",
+    "patterns": [
+      "How is Cancer (general) treated?",
+      "Best treatment for Cancer (general)",
+      "Medication for Cancer (general)",
+      "Can Cancer (general) be cured?"
+    ],
+    "responses": [
+      "Treatment for Cancer (general) depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "cancer_general_doctor",
+    "patterns": [
+      "Which doctor should I see for Cancer (general)?",
+      "What kind of specialist treats Cancer (general)?",
+      "Do I need a doctor for Cancer (general)?",
+      "Is Cancer (general) serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Oncologist, for Cancer (general)."
+    ]
+  },
+  {
+    "tag": "cancer_general_emergency",
+    "patterns": [
+      "Is Cancer (general) an emergency?",
+      "When should I go to ER for Cancer (general)?",
+      "Urgent signs of Cancer (general)",
+      "What if Cancer (general) gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Cancer (general) may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "carpal_tunnel_syndrome_symptoms",
+    "patterns": [
+      "What are the symptoms of Carpal tunnel syndrome?",
+      "How do I know if I have Carpal tunnel syndrome?",
+      "Signs of Carpal tunnel syndrome",
+      "Is Carpal tunnel syndrome dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Carpal tunnel syndrome may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "carpal_tunnel_syndrome_treatment",
+    "patterns": [
+      "How is Carpal tunnel syndrome treated?",
+      "Best treatment for Carpal tunnel syndrome",
+      "Medication for Carpal tunnel syndrome",
+      "Can Carpal tunnel syndrome be cured?"
+    ],
+    "responses": [
+      "Treatment for Carpal tunnel syndrome depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "carpal_tunnel_syndrome_doctor",
+    "patterns": [
+      "Which doctor should I see for Carpal tunnel syndrome?",
+      "What kind of specialist treats Carpal tunnel syndrome?",
+      "Do I need a doctor for Carpal tunnel syndrome?",
+      "Is Carpal tunnel syndrome serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Neurologist, for Carpal tunnel syndrome."
+    ]
+  },
+  {
+    "tag": "carpal_tunnel_syndrome_emergency",
+    "patterns": [
+      "Is Carpal tunnel syndrome an emergency?",
+      "When should I go to ER for Carpal tunnel syndrome?",
+      "Urgent signs of Carpal tunnel syndrome",
+      "What if Carpal tunnel syndrome gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Carpal tunnel syndrome may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "celiac_disease_symptoms",
+    "patterns": [
+      "What are the symptoms of Celiac disease?",
+      "How do I know if I have Celiac disease?",
+      "Signs of Celiac disease",
+      "Is Celiac disease dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Celiac disease may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "celiac_disease_treatment",
+    "patterns": [
+      "How is Celiac disease treated?",
+      "Best treatment for Celiac disease",
+      "Medication for Celiac disease",
+      "Can Celiac disease be cured?"
+    ],
+    "responses": [
+      "Treatment for Celiac disease depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "celiac_disease_doctor",
+    "patterns": [
+      "Which doctor should I see for Celiac disease?",
+      "What kind of specialist treats Celiac disease?",
+      "Do I need a doctor for Celiac disease?",
+      "Is Celiac disease serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Gastroenterologist, for Celiac disease."
+    ]
+  },
+  {
+    "tag": "celiac_disease_emergency",
+    "patterns": [
+      "Is Celiac disease an emergency?",
+      "When should I go to ER for Celiac disease?",
+      "Urgent signs of Celiac disease",
+      "What if Celiac disease gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Celiac disease may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "cerebral_palsy_symptoms",
+    "patterns": [
+      "What are the symptoms of Cerebral palsy?",
+      "How do I know if I have Cerebral palsy?",
+      "Signs of Cerebral palsy",
+      "Is Cerebral palsy dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Cerebral palsy may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "cerebral_palsy_treatment",
+    "patterns": [
+      "How is Cerebral palsy treated?",
+      "Best treatment for Cerebral palsy",
+      "Medication for Cerebral palsy",
+      "Can Cerebral palsy be cured?"
+    ],
+    "responses": [
+      "Treatment for Cerebral palsy depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "cerebral_palsy_doctor",
+    "patterns": [
+      "Which doctor should I see for Cerebral palsy?",
+      "What kind of specialist treats Cerebral palsy?",
+      "Do I need a doctor for Cerebral palsy?",
+      "Is Cerebral palsy serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Neurologist, for Cerebral palsy."
+    ]
+  },
+  {
+    "tag": "cerebral_palsy_emergency",
+    "patterns": [
+      "Is Cerebral palsy an emergency?",
+      "When should I go to ER for Cerebral palsy?",
+      "Urgent signs of Cerebral palsy",
+      "What if Cerebral palsy gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Cerebral palsy may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "chest_injury_symptoms",
+    "patterns": [
+      "What are the symptoms of Chest injury?",
+      "How do I know if I have Chest injury?",
+      "Signs of Chest injury",
+      "Is Chest injury dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Chest injury may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "chest_injury_treatment",
+    "patterns": [
+      "How is Chest injury treated?",
+      "Best treatment for Chest injury",
+      "Medication for Chest injury",
+      "Can Chest injury be cured?"
+    ],
+    "responses": [
+      "Treatment for Chest injury depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "chest_injury_doctor",
+    "patterns": [
+      "Which doctor should I see for Chest injury?",
+      "What kind of specialist treats Chest injury?",
+      "Do I need a doctor for Chest injury?",
+      "Is Chest injury serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Trauma Surgeon, for Chest injury."
+    ]
+  },
+  {
+    "tag": "chest_injury_emergency",
+    "patterns": [
+      "Is Chest injury an emergency?",
+      "When should I go to ER for Chest injury?",
+      "Urgent signs of Chest injury",
+      "What if Chest injury gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Chest injury may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "chlamydia_symptoms",
+    "patterns": [
+      "What are the symptoms of Chlamydia?",
+      "How do I know if I have Chlamydia?",
+      "Signs of Chlamydia",
+      "Is Chlamydia dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Chlamydia may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "chlamydia_treatment",
+    "patterns": [
+      "How is Chlamydia treated?",
+      "Best treatment for Chlamydia",
+      "Medication for Chlamydia",
+      "Can Chlamydia be cured?"
+    ],
+    "responses": [
+      "Treatment for Chlamydia depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "chlamydia_doctor",
+    "patterns": [
+      "Which doctor should I see for Chlamydia?",
+      "What kind of specialist treats Chlamydia?",
+      "Do I need a doctor for Chlamydia?",
+      "Is Chlamydia serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Gynecologist, for Chlamydia."
+    ]
+  },
+  {
+    "tag": "chlamydia_emergency",
+    "patterns": [
+      "Is Chlamydia an emergency?",
+      "When should I go to ER for Chlamydia?",
+      "Urgent signs of Chlamydia",
+      "What if Chlamydia gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Chlamydia may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "cholera_symptoms",
+    "patterns": [
+      "What are the symptoms of Cholera?",
+      "How do I know if I have Cholera?",
+      "Signs of Cholera",
+      "Is Cholera dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Cholera may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "cholera_treatment",
+    "patterns": [
+      "How is Cholera treated?",
+      "Best treatment for Cholera",
+      "Medication for Cholera",
+      "Can Cholera be cured?"
+    ],
+    "responses": [
+      "Treatment for Cholera depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "cholera_doctor",
+    "patterns": [
+      "Which doctor should I see for Cholera?",
+      "What kind of specialist treats Cholera?",
+      "Do I need a doctor for Cholera?",
+      "Is Cholera serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Infectious Disease Specialist, for Cholera."
+    ]
+  },
+  {
+    "tag": "cholera_emergency",
+    "patterns": [
+      "Is Cholera an emergency?",
+      "When should I go to ER for Cholera?",
+      "Urgent signs of Cholera",
+      "What if Cholera gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Cholera may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "chronic_kidney_disease_symptoms",
+    "patterns": [
+      "What are the symptoms of Chronic kidney disease?",
+      "How do I know if I have Chronic kidney disease?",
+      "Signs of Chronic kidney disease",
+      "Is Chronic kidney disease dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Chronic kidney disease may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "chronic_kidney_disease_treatment",
+    "patterns": [
+      "How is Chronic kidney disease treated?",
+      "Best treatment for Chronic kidney disease",
+      "Medication for Chronic kidney disease",
+      "Can Chronic kidney disease be cured?"
+    ],
+    "responses": [
+      "Treatment for Chronic kidney disease depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "chronic_kidney_disease_doctor",
+    "patterns": [
+      "Which doctor should I see for Chronic kidney disease?",
+      "What kind of specialist treats Chronic kidney disease?",
+      "Do I need a doctor for Chronic kidney disease?",
+      "Is Chronic kidney disease serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Nephrologist, for Chronic kidney disease."
+    ]
+  },
+  {
+    "tag": "chronic_kidney_disease_emergency",
+    "patterns": [
+      "Is Chronic kidney disease an emergency?",
+      "When should I go to ER for Chronic kidney disease?",
+      "Urgent signs of Chronic kidney disease",
+      "What if Chronic kidney disease gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Chronic kidney disease may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "chronic_liver_disease_symptoms",
+    "patterns": [
+      "What are the symptoms of Chronic liver disease?",
+      "How do I know if I have Chronic liver disease?",
+      "Signs of Chronic liver disease",
+      "Is Chronic liver disease dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Chronic liver disease may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "chronic_liver_disease_treatment",
+    "patterns": [
+      "How is Chronic liver disease treated?",
+      "Best treatment for Chronic liver disease",
+      "Medication for Chronic liver disease",
+      "Can Chronic liver disease be cured?"
+    ],
+    "responses": [
+      "Treatment for Chronic liver disease depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "chronic_liver_disease_doctor",
+    "patterns": [
+      "Which doctor should I see for Chronic liver disease?",
+      "What kind of specialist treats Chronic liver disease?",
+      "Do I need a doctor for Chronic liver disease?",
+      "Is Chronic liver disease serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Hepatologist, for Chronic liver disease."
+    ]
+  },
+  {
+    "tag": "chronic_liver_disease_emergency",
+    "patterns": [
+      "Is Chronic liver disease an emergency?",
+      "When should I go to ER for Chronic liver disease?",
+      "Urgent signs of Chronic liver disease",
+      "What if Chronic liver disease gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Chronic liver disease may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "chronic_sinusitis_symptoms",
+    "patterns": [
+      "What are the symptoms of Chronic sinusitis?",
+      "How do I know if I have Chronic sinusitis?",
+      "Signs of Chronic sinusitis",
+      "Is Chronic sinusitis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Chronic sinusitis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "chronic_sinusitis_treatment",
+    "patterns": [
+      "How is Chronic sinusitis treated?",
+      "Best treatment for Chronic sinusitis",
+      "Medication for Chronic sinusitis",
+      "Can Chronic sinusitis be cured?"
+    ],
+    "responses": [
+      "Treatment for Chronic sinusitis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "chronic_sinusitis_doctor",
+    "patterns": [
+      "Which doctor should I see for Chronic sinusitis?",
+      "What kind of specialist treats Chronic sinusitis?",
+      "Do I need a doctor for Chronic sinusitis?",
+      "Is Chronic sinusitis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a ENT Specialist, for Chronic sinusitis."
+    ]
+  },
+  {
+    "tag": "chronic_sinusitis_emergency",
+    "patterns": [
+      "Is Chronic sinusitis an emergency?",
+      "When should I go to ER for Chronic sinusitis?",
+      "Urgent signs of Chronic sinusitis",
+      "What if Chronic sinusitis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Chronic sinusitis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "copd_symptoms",
+    "patterns": [
+      "What are the symptoms of COPD?",
+      "How do I know if I have COPD?",
+      "Signs of COPD",
+      "Is COPD dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of COPD may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "copd_treatment",
+    "patterns": [
+      "How is COPD treated?",
+      "Best treatment for COPD",
+      "Medication for COPD",
+      "Can COPD be cured?"
+    ],
+    "responses": [
+      "Treatment for COPD depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "copd_doctor",
+    "patterns": [
+      "Which doctor should I see for COPD?",
+      "What kind of specialist treats COPD?",
+      "Do I need a doctor for COPD?",
+      "Is COPD serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Pulmonologist, for COPD."
+    ]
+  },
+  {
+    "tag": "copd_emergency",
+    "patterns": [
+      "Is COPD an emergency?",
+      "When should I go to ER for COPD?",
+      "Urgent signs of COPD",
+      "What if COPD gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, COPD may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "cold_common_cold_symptoms",
+    "patterns": [
+      "What are the symptoms of Cold (common cold)?",
+      "How do I know if I have Cold (common cold)?",
+      "Signs of Cold (common cold)",
+      "Is Cold (common cold) dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Cold (common cold) may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "cold_common_cold_treatment",
+    "patterns": [
+      "How is Cold (common cold) treated?",
+      "Best treatment for Cold (common cold)",
+      "Medication for Cold (common cold)",
+      "Can Cold (common cold) be cured?"
+    ],
+    "responses": [
+      "Treatment for Cold (common cold) depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "cold_common_cold_doctor",
+    "patterns": [
+      "Which doctor should I see for Cold (common cold)?",
+      "What kind of specialist treats Cold (common cold)?",
+      "Do I need a doctor for Cold (common cold)?",
+      "Is Cold (common cold) serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a General Physician, for Cold (common cold)."
+    ]
+  },
+  {
+    "tag": "cold_common_cold_emergency",
+    "patterns": [
+      "Is Cold (common cold) an emergency?",
+      "When should I go to ER for Cold (common cold)?",
+      "Urgent signs of Cold (common cold)",
+      "What if Cold (common cold) gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Cold (common cold) may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "conjunctivitis_symptoms",
+    "patterns": [
+      "What are the symptoms of Conjunctivitis?",
+      "How do I know if I have Conjunctivitis?",
+      "Signs of Conjunctivitis",
+      "Is Conjunctivitis dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Conjunctivitis may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "conjunctivitis_treatment",
+    "patterns": [
+      "How is Conjunctivitis treated?",
+      "Best treatment for Conjunctivitis",
+      "Medication for Conjunctivitis",
+      "Can Conjunctivitis be cured?"
+    ],
+    "responses": [
+      "Treatment for Conjunctivitis depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "conjunctivitis_doctor",
+    "patterns": [
+      "Which doctor should I see for Conjunctivitis?",
+      "What kind of specialist treats Conjunctivitis?",
+      "Do I need a doctor for Conjunctivitis?",
+      "Is Conjunctivitis serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Ophthalmologist, for Conjunctivitis."
+    ]
+  },
+  {
+    "tag": "conjunctivitis_emergency",
+    "patterns": [
+      "Is Conjunctivitis an emergency?",
+      "When should I go to ER for Conjunctivitis?",
+      "Urgent signs of Conjunctivitis",
+      "What if Conjunctivitis gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Conjunctivitis may require emergency care, especially if symptoms escalate quickly."
+    ]
+  },
+  {
+    "tag": "constipation_symptoms",
+    "patterns": [
+      "What are the symptoms of Constipation?",
+      "How do I know if I have Constipation?",
+      "Signs of Constipation",
+      "Is Constipation dangerous?"
+    ],
+    "responses": [
+      "Common symptoms of Constipation may include fatigue, discomfort, and specific physical or cognitive changes. It's important to consult a doctor for diagnosis."
+    ]
+  },
+  {
+    "tag": "constipation_treatment",
+    "patterns": [
+      "How is Constipation treated?",
+      "Best treatment for Constipation",
+      "Medication for Constipation",
+      "Can Constipation be cured?"
+    ],
+    "responses": [
+      "Treatment for Constipation depends on the severity but may include medication, lifestyle changes, or therapy. Always follow a physician's recommendation."
+    ]
+  },
+  {
+    "tag": "constipation_doctor",
+    "patterns": [
+      "Which doctor should I see for Constipation?",
+      "What kind of specialist treats Constipation?",
+      "Do I need a doctor for Constipation?",
+      "Is Constipation serious enough for hospital?"
+    ],
+    "responses": [
+      "You should consult a specialist, often a Gastroenterologist, for Constipation."
+    ]
+  },
+  {
+    "tag": "constipation_emergency",
+    "patterns": [
+      "Is Constipation an emergency?",
+      "When should I go to ER for Constipation?",
+      "Urgent signs of Constipation",
+      "What if Constipation gets worse suddenly?"
+    ],
+    "responses": [
+      "In severe cases, Constipation may require emergency care, especially if symptoms escalate quickly."
+    ]
   }
+
 ]
